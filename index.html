@@ -1,0 +1,3837 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Streamcard</title>
+    <style type="text/css">
+      /* Reset */
+      .ExternalClass {
+        width: 100%;
+      }
+      .ExternalClass,
+      .ExternalClass p,
+      .ExternalClass span,
+      .ExternalClass font,
+      .ExternalClass td,
+      .ExternalClass div {
+        line-height: 100%;
+      }
+      body {
+        -webkit-text-size-adjust: none;
+        -ms-text-size-adjust: none;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      table td {
+        border-collapse: collapse;
+      }
+      a,
+      a:link {
+        color: inherit;
+        text-decoration: underline;
+      }
+      span.yshortcuts {
+        color: inherit;
+        background-color: none;
+        border: none;
+      }
+      span.yshortcuts:hover,
+      span.yshortcuts:active,
+      span.yshortcuts:focus {
+        color: inherit;
+        background-color: none;
+        border: none;
+      }
+      @media screen {
+        @font-face {
+          font-family: 'MarkWebPro-ExtraLightW01Rg';
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-ExtraLightW01Rg.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-ExtraLightW01Rg.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkWebPro-ExtraLightW01Rg.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkWebPro-ExtraLightW01Rg.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkWebPro-ExtraLightW01Rg.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkWebPro-ExtraLightW01Rg.svg#MarkWebPro-ExtraLightW01Rg') format('svg');
+          font-weight: 300;
+        }
+        @font-face {
+          font-family: 'MarkWebPro-LightW01Regular';
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-LightW01Regular.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-LightW01Regular.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkWebPro-LightW01Regular.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkWebPro-LightW01Regular.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkWebPro-LightW01Regular.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkWebPro-LightW01Regular.svg#MarkWebPro-LightW01Regular') format('svg');
+          font-weight: bold;
+        }
+        @font-face {
+          font-family: 'MarkWebW01Regular';
+          src: url('https://mastercardevents.com/webfonts/MarkWebW01Regular.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkWebW01Regular.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkWebW01Regular.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkWebW01Regular.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkWebW01Regular.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkWebW01Regular.svg#MarkWebW01Regular') format('svg');
+          font-weight: bold;
+        }
+        @font-face {
+          font-family: 'MarkWebPro-MediumW01Regular';
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-MediumW01Regular.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-MediumW01Regular.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkWebPro-MediumW01Regular.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkWebPro-MediumW01Regular.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkWebPro-MediumW01Regular.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkWebPro-MediumW01Regular.svg#MarkWebPro-MediumW01Regular') format('svg');
+          font-weight: bold;
+        }
+        @font-face {
+          font-family: 'MarkWebPro-BoldW01Regular';
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-BoldW01Regular.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-BoldW01Regular.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkWebPro-BoldW01Regular.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkWebPro-BoldW01Regular.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkWebPro-BoldW01Regular.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkWebPro-BoldW01Regular.svg#MarkWebPro-BoldW01Regular') format('svg');
+          font-weight: bold;
+        }
+        @font-face {
+          font-family: 'MarkForMCNarrowW00-Regular';
+          src: url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Regular.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Regular.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Regular.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Regular.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Regular.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Regular.svg#MarkForMCNarrowW00-Regular') format('svg');
+          font-weight: bold;
+        }
+        @font-face {
+          font-family: 'MarkForMCNarrowW00-Medium';
+          src: url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Medium.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Medium.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Medium.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Medium.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Medium.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Medium.svg#MarkForMCNarrowW00-Medium') format('svg');
+          font-weight: bold;
+        }
+        @font-face {
+          font-family: 'MarkForMCNarrowW00-Bold';
+          src: url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Bold.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Bold.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Bold.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Bold.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Bold.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Bold.svg#MarkForMCNarrowW00-Bold') format('svg');
+          font-weight: bold;
+        }
+      }
+      /*Outlook fix */
+      p.MsoNormal {
+        margin: 0px !important;
+      }
+      [style*='MarkWebPro-ExtraLightW01Rg'] {
+        font-family: 'MarkWebPro-ExtraLightW01Rg', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkWebPro-LightW01Regular'] {
+        font-family: 'MarkWebPro-LightW01Regular', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkWebW01Regular'] {
+        font-family: 'MarkWebW01Regular', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkWebPro-MediumW01Regular'] {
+        font-family: 'MarkWebPro-MediumW01Regular', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkWebPro-BoldW01Regular'] {
+        font-family: 'MarkWebPro-BoldW01Regular', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkForMCNarrowW00-Regular'] {
+        font-family: 'MarkForMCNarrowW00-Regular', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkForMCNarrowW00-Medium'] {
+        font-family: 'MarkForMCNarrowW00-Medium', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkForMCNarrowW00-Bold'] {
+        font-family: 'MarkForMCNarrowW00-Bold', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      /*Responsive Century Gothic, Arial, sans-serif !important;*/
+      @media only screen and (max-width: 667px) {
+        .badge {
+          width: 118px;
+          max-width: 118px;
+          float: left;
+        }
+        .badge img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .banner {
+          min-width: 100% !important;
+          width: 100% !important;
+        }
+        .banner img {
+          height: auto !important;
+          width: 100% !important;
+          margin-left: auto;
+          margin-right: auto;
+        }
+        .bioImg {
+          width: 100px;
+          max-width: 100px;
+          float: left;
+        }
+        .bioImg img {
+          width: 100% !important;
+          max-width: 100px !important;
+          height: auto !important;
+        }
+        .btn {
+          width: 190px;
+          max-width: 190px;
+          float: none;
+        }
+        .btn img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .center {
+          text-align: center !important;
+        }
+        .col-50 {
+          float: none;
+          width: 100% !important;
+        }
+        .content {
+          width: 90%;
+          margin-left: auto;
+          margin-right: auto;
+          float: none;
+        }
+        .container {
+          width: 100% !important;
+          margin-left: auto;
+          margin-right: auto;
+          float: none;
+        }
+        .event-logo {
+          width: 170px;
+          max-width: 170px;
+          float: right;
+          padding-left: 25px;
+        }
+        .event-logo img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .height-auto {
+          height: auto !important;
+        }
+        .hero {
+          float: left;
+          width: 100% !important;
+        }
+        .icon {
+          width: 55px;
+          max-width: 55px;
+          float: left;
+        }
+        .icon img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .icon-social {
+          width: 30px;
+          max-width: 30px;
+          float: left;
+        }
+        .icon-social img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .imgBlock {
+          height: auto !important;
+        }
+        .left {
+          float: left;
+        }
+        .less-space {
+          height: 15px !important;
+          line-height: 15px !important;
+          font-size: 15px !important;
+        }
+        .mainContainer {
+          width: 100% !important;
+          min-width: 100% !important;
+          height: auto !important;
+          margin-left: auto;
+          margin-right: auto;
+          float: none;
+        }
+        .mc-inconvoWith {
+          width: 190px;
+          max-width: 190px;
+          float: left;
+        }
+        .mc-inconvoWith img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .mc-symbol {
+          width: 53px;
+          max-width: 53px;
+          float: left;
+        }
+        .mc-symbol img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .micro-space {
+          height: 12px !important;
+          line-height: 12px !important;
+          font-size: 12px !important;
+        }
+        .more-space {
+          height: 25px !important;
+          line-height: 25px !important;
+          font-size: 25px !important;
+        }
+        .socialWrapper {
+          margin-left: auto;
+          margin-right: auto;
+          float: left;
+        }
+        .spaceToHide {
+          display: none;
+        }
+        .sponsor {
+          width: 110px;
+          max-width: 110px;
+          float: left;
+        }
+        .sponsor img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .top-10 {
+          margin-top: 10px !important;
+        }
+        .top-15 {
+          margin-top: 15px !important;
+        }
+        .top-20 {
+          margin-top: 20px !important;
+        }
+        .top-25 {
+          margin-top: 25px !important;
+        }
+        .top-30 {
+          margin-top: 30px !important;
+        }
+        .top-35 {
+          margin-top: 35px !important;
+        }
+        .top-40 {
+          margin-top: 40px !important;
+        }
+        .top-45 {
+          margin-top: 45px !important;
+        }
+      }
+    </style>
+
+    <!--[if (gte mso 9)|(IE)]>
+    <style type="text/css">
+        table {
+        border-collapse: collapse;
+        border-spacing: 0; 
+        mso-line-height-rule: exactly; 
+        mso-margin-bottom-alt: 0; 
+        mso-margin-top-alt: 0; 
+        mso-table-lspace: 0pt; mso-table-rspace: 0pt;}
+        </style>
+         <![endif]-->
+  </head>
+  <body style="padding:0; margin:0; background-color:#f1efeb">
+    <style type="text/css">
+      /* Reset */
+      .ExternalClass {
+        width: 100%;
+      }
+      .ExternalClass,
+      .ExternalClass p,
+      .ExternalClass span,
+      .ExternalClass font,
+      .ExternalClass td,
+      .ExternalClass div {
+        line-height: 100%;
+      }
+      body {
+        -webkit-text-size-adjust: none;
+        -ms-text-size-adjust: none;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      table td {
+        border-collapse: collapse;
+      }
+      a,
+      a:link {
+        color: inherit;
+        text-decoration: underline;
+      }
+      span.yshortcuts {
+        color: inherit;
+        background-color: none;
+        border: none;
+      }
+      span.yshortcuts:hover,
+      span.yshortcuts:active,
+      span.yshortcuts:focus {
+        color: inherit;
+        background-color: none;
+        border: none;
+      }
+      @media screen {
+        @font-face {
+          font-family: 'MarkWebPro-ExtraLightW01Rg';
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-ExtraLightW01Rg.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-ExtraLightW01Rg.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkWebPro-ExtraLightW01Rg.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkWebPro-ExtraLightW01Rg.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkWebPro-ExtraLightW01Rg.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkWebPro-ExtraLightW01Rg.svg#MarkWebPro-ExtraLightW01Rg') format('svg');
+          font-weight: 300;
+        }
+        @font-face {
+          font-family: 'MarkWebPro-LightW01Regular';
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-LightW01Regular.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-LightW01Regular.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkWebPro-LightW01Regular.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkWebPro-LightW01Regular.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkWebPro-LightW01Regular.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkWebPro-LightW01Regular.svg#MarkWebPro-LightW01Regular') format('svg');
+          font-weight: bold;
+        }
+        @font-face {
+          font-family: 'MarkWebW01Regular';
+          src: url('https://mastercardevents.com/webfonts/MarkWebW01Regular.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkWebW01Regular.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkWebW01Regular.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkWebW01Regular.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkWebW01Regular.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkWebW01Regular.svg#MarkWebW01Regular') format('svg');
+          font-weight: bold;
+        }
+        @font-face {
+          font-family: 'MarkWebPro-MediumW01Regular';
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-MediumW01Regular.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-MediumW01Regular.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkWebPro-MediumW01Regular.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkWebPro-MediumW01Regular.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkWebPro-MediumW01Regular.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkWebPro-MediumW01Regular.svg#MarkWebPro-MediumW01Regular') format('svg');
+          font-weight: bold;
+        }
+        @font-face {
+          font-family: 'MarkWebPro-BoldW01Regular';
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-BoldW01Regular.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-BoldW01Regular.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkWebPro-BoldW01Regular.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkWebPro-BoldW01Regular.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkWebPro-BoldW01Regular.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkWebPro-BoldW01Regular.svg#MarkWebPro-BoldW01Regular') format('svg');
+          font-weight: bold;
+        }
+        @font-face {
+          font-family: 'MarkForMCNarrowW00-Regular';
+          src: url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Regular.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Regular.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Regular.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Regular.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Regular.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Regular.svg#MarkForMCNarrowW00-Regular') format('svg');
+          font-weight: bold;
+        }
+        @font-face {
+          font-family: 'MarkForMCNarrowW00-Medium';
+          src: url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Medium.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Medium.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Medium.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Medium.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Medium.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Medium.svg#MarkForMCNarrowW00-Medium') format('svg');
+          font-weight: bold;
+        }
+        @font-face {
+          font-family: 'MarkForMCNarrowW00-Bold';
+          src: url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Bold.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Bold.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Bold.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Bold.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Bold.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Bold.svg#MarkForMCNarrowW00-Bold') format('svg');
+          font-weight: bold;
+        }
+      }
+      /*Outlook fix */
+      p.MsoNormal {
+        margin: 0px !important;
+      }
+      [style*='MarkWebPro-ExtraLightW01Rg'] {
+        font-family: 'MarkWebPro-ExtraLightW01Rg', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkWebPro-LightW01Regular'] {
+        font-family: 'MarkWebPro-LightW01Regular', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkWebW01Regular'] {
+        font-family: 'MarkWebW01Regular', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkWebPro-MediumW01Regular'] {
+        font-family: 'MarkWebPro-MediumW01Regular', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkWebPro-BoldW01Regular'] {
+        font-family: 'MarkWebPro-BoldW01Regular', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkForMCNarrowW00-Regular'] {
+        font-family: 'MarkForMCNarrowW00-Regular', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkForMCNarrowW00-Medium'] {
+        font-family: 'MarkForMCNarrowW00-Medium', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkForMCNarrowW00-Bold'] {
+        font-family: 'MarkForMCNarrowW00-Bold', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      /*Responsive Century Gothic, Arial, sans-serif !important;*/
+      @media only screen and (max-width: 667px) {
+        .badge {
+          width: 118px;
+          max-width: 118px;
+          float: left;
+        }
+        .badge img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .banner {
+          min-width: 100% !important;
+          width: 100% !important;
+        }
+        .banner img {
+          height: auto !important;
+          width: 100% !important;
+          margin-left: auto;
+          margin-right: auto;
+        }
+        .bioImg {
+          width: 100px;
+          max-width: 100px;
+          float: left;
+        }
+        .bioImg img {
+          width: 100% !important;
+          max-width: 100px !important;
+          height: auto !important;
+        }
+        .btn {
+          width: 190px;
+          max-width: 190px;
+          float: none;
+        }
+        .btn img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .center {
+          text-align: center !important;
+        }
+        .col-50 {
+          float: none;
+          width: 100% !important;
+        }
+        .content {
+          width: 90%;
+          margin-left: auto;
+          margin-right: auto;
+          float: none;
+        }
+        .container {
+          width: 100% !important;
+          margin-left: auto;
+          margin-right: auto;
+          float: none;
+        }
+        .event-logo {
+          width: 170px;
+          max-width: 170px;
+          float: right;
+          padding-left: 25px;
+        }
+        .event-logo img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .height-auto {
+          height: auto !important;
+        }
+        .hero {
+          float: left;
+          width: 100% !important;
+        }
+        .icon {
+          width: 55px;
+          max-width: 55px;
+          float: left;
+        }
+        .icon img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .icon-social {
+          width: 30px;
+          max-width: 30px;
+          float: left;
+        }
+        .icon-social img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .imgBlock {
+          height: auto !important;
+        }
+        .left {
+          float: left;
+        }
+        .less-space {
+          height: 15px !important;
+          line-height: 15px !important;
+          font-size: 15px !important;
+        }
+        .mainContainer {
+          width: 100% !important;
+          min-width: 100% !important;
+          height: auto !important;
+          margin-left: auto;
+          margin-right: auto;
+          float: none;
+        }
+        .mc-inconvoWith {
+          width: 190px;
+          max-width: 190px;
+          float: left;
+        }
+        .mc-inconvoWith img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .mc-symbol {
+          width: 53px;
+          max-width: 53px;
+          float: left;
+        }
+        .mc-symbol img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .micro-space {
+          height: 12px !important;
+          line-height: 12px !important;
+          font-size: 12px !important;
+        }
+        .more-space {
+          height: 25px !important;
+          line-height: 25px !important;
+          font-size: 25px !important;
+        }
+        .socialWrapper {
+          margin-left: auto;
+          margin-right: auto;
+          float: left;
+        }
+        .spaceToHide {
+          display: none;
+        }
+        .sponsor {
+          width: 110px;
+          max-width: 110px;
+          float: left;
+        }
+        .sponsor img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .top-10 {
+          margin-top: 10px !important;
+        }
+        .top-15 {
+          margin-top: 15px !important;
+        }
+        .top-20 {
+          margin-top: 20px !important;
+        }
+        .top-25 {
+          margin-top: 25px !important;
+        }
+        .top-30 {
+          margin-top: 30px !important;
+        }
+        .top-35 {
+          margin-top: 35px !important;
+        }
+        .top-40 {
+          margin-top: 40px !important;
+        }
+        .top-45 {
+          margin-top: 45px !important;
+        }
+      }
+    </style>
+
+    <!--[if (gte mso 9)|(IE)]>
+    <style type="text/css">
+        table {
+        border-collapse: collapse;
+        border-spacing: 0; 
+        mso-line-height-rule: exactly; 
+        mso-margin-bottom-alt: 0; 
+        mso-margin-top-alt: 0; 
+        mso-table-lspace: 0pt; mso-table-rspace: 0pt;}
+        </style>
+         <![endif]-->
+    <style type="text/css">
+      /* Reset */
+      .ExternalClass {
+        width: 100%;
+      }
+      .ExternalClass,
+      .ExternalClass p,
+      .ExternalClass span,
+      .ExternalClass font,
+      .ExternalClass td,
+      .ExternalClass div {
+        line-height: 100%;
+      }
+      body {
+        -webkit-text-size-adjust: none;
+        -ms-text-size-adjust: none;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      table td {
+        border-collapse: collapse;
+      }
+      a,
+      a:link {
+        color: inherit;
+        text-decoration: underline;
+      }
+      span.yshortcuts {
+        color: inherit;
+        background-color: none;
+        border: none;
+      }
+      span.yshortcuts:hover,
+      span.yshortcuts:active,
+      span.yshortcuts:focus {
+        color: inherit;
+        background-color: none;
+        border: none;
+      }
+      @media screen {
+        @font-face {
+          font-family: 'MarkWebPro-ExtraLightW01Rg';
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-ExtraLightW01Rg.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-ExtraLightW01Rg.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkWebPro-ExtraLightW01Rg.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkWebPro-ExtraLightW01Rg.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkWebPro-ExtraLightW01Rg.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkWebPro-ExtraLightW01Rg.svg#MarkWebPro-ExtraLightW01Rg') format('svg');
+          font-weight: 300;
+        }
+        @font-face {
+          font-family: 'MarkWebPro-LightW01Regular';
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-LightW01Regular.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-LightW01Regular.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkWebPro-LightW01Regular.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkWebPro-LightW01Regular.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkWebPro-LightW01Regular.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkWebPro-LightW01Regular.svg#MarkWebPro-LightW01Regular') format('svg');
+          font-weight: bold;
+        }
+        @font-face {
+          font-family: 'MarkWebW01Regular';
+          src: url('https://mastercardevents.com/webfonts/MarkWebW01Regular.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkWebW01Regular.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkWebW01Regular.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkWebW01Regular.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkWebW01Regular.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkWebW01Regular.svg#MarkWebW01Regular') format('svg');
+          font-weight: bold;
+        }
+        @font-face {
+          font-family: 'MarkWebPro-MediumW01Regular';
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-MediumW01Regular.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-MediumW01Regular.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkWebPro-MediumW01Regular.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkWebPro-MediumW01Regular.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkWebPro-MediumW01Regular.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkWebPro-MediumW01Regular.svg#MarkWebPro-MediumW01Regular') format('svg');
+          font-weight: bold;
+        }
+        @font-face {
+          font-family: 'MarkWebPro-BoldW01Regular';
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-BoldW01Regular.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-BoldW01Regular.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkWebPro-BoldW01Regular.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkWebPro-BoldW01Regular.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkWebPro-BoldW01Regular.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkWebPro-BoldW01Regular.svg#MarkWebPro-BoldW01Regular') format('svg');
+          font-weight: bold;
+        }
+        @font-face {
+          font-family: 'MarkForMCNarrowW00-Regular';
+          src: url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Regular.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Regular.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Regular.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Regular.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Regular.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Regular.svg#MarkForMCNarrowW00-Regular') format('svg');
+          font-weight: bold;
+        }
+        @font-face {
+          font-family: 'MarkForMCNarrowW00-Medium';
+          src: url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Medium.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Medium.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Medium.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Medium.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Medium.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Medium.svg#MarkForMCNarrowW00-Medium') format('svg');
+          font-weight: bold;
+        }
+        @font-face {
+          font-family: 'MarkForMCNarrowW00-Bold';
+          src: url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Bold.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Bold.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Bold.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Bold.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Bold.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Bold.svg#MarkForMCNarrowW00-Bold') format('svg');
+          font-weight: bold;
+        }
+      }
+      /*Outlook fix */
+      p.MsoNormal {
+        margin: 0px !important;
+      }
+      [style*='MarkWebPro-ExtraLightW01Rg'] {
+        font-family: 'MarkWebPro-ExtraLightW01Rg', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkWebPro-LightW01Regular'] {
+        font-family: 'MarkWebPro-LightW01Regular', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkWebW01Regular'] {
+        font-family: 'MarkWebW01Regular', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkWebPro-MediumW01Regular'] {
+        font-family: 'MarkWebPro-MediumW01Regular', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkWebPro-BoldW01Regular'] {
+        font-family: 'MarkWebPro-BoldW01Regular', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkForMCNarrowW00-Regular'] {
+        font-family: 'MarkForMCNarrowW00-Regular', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkForMCNarrowW00-Medium'] {
+        font-family: 'MarkForMCNarrowW00-Medium', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkForMCNarrowW00-Bold'] {
+        font-family: 'MarkForMCNarrowW00-Bold', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      /*Responsive Century Gothic, Arial, sans-serif !important;*/
+      @media only screen and (max-width: 667px) {
+        .badge {
+          width: 118px;
+          max-width: 118px;
+          float: left;
+        }
+        .badge img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .banner {
+          min-width: 100% !important;
+          width: 100% !important;
+        }
+        .banner img {
+          height: auto !important;
+          width: 100% !important;
+          margin-left: auto;
+          margin-right: auto;
+        }
+        .bioImg {
+          width: 100px;
+          max-width: 100px;
+          float: left;
+        }
+        .bioImg img {
+          width: 100% !important;
+          max-width: 100px !important;
+          height: auto !important;
+        }
+        .btn {
+          width: 190px;
+          max-width: 190px;
+          float: none;
+        }
+        .btn img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .center {
+          text-align: center !important;
+        }
+        .col-50 {
+          float: none;
+          width: 100% !important;
+        }
+        .content {
+          width: 90%;
+          margin-left: auto;
+          margin-right: auto;
+          float: none;
+        }
+        .container {
+          width: 100% !important;
+          margin-left: auto;
+          margin-right: auto;
+          float: none;
+        }
+        .event-logo {
+          width: 170px;
+          max-width: 170px;
+          float: right;
+          padding-left: 25px;
+        }
+        .event-logo img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .height-auto {
+          height: auto !important;
+        }
+        .hero {
+          float: left;
+          width: 100% !important;
+        }
+        .icon {
+          width: 55px;
+          max-width: 55px;
+          float: left;
+        }
+        .icon img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .icon-social {
+          width: 30px;
+          max-width: 30px;
+          float: left;
+        }
+        .icon-social img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .imgBlock {
+          height: auto !important;
+        }
+        .left {
+          float: left;
+        }
+        .less-space {
+          height: 15px !important;
+          line-height: 15px !important;
+          font-size: 15px !important;
+        }
+        .mainContainer {
+          width: 100% !important;
+          min-width: 100% !important;
+          height: auto !important;
+          margin-left: auto;
+          margin-right: auto;
+          float: none;
+        }
+        .mc-inconvoWith {
+          width: 190px;
+          max-width: 190px;
+          float: left;
+        }
+        .mc-inconvoWith img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .mc-symbol {
+          width: 53px;
+          max-width: 53px;
+          float: left;
+        }
+        .mc-symbol img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .micro-space {
+          height: 12px !important;
+          line-height: 12px !important;
+          font-size: 12px !important;
+        }
+        .more-space {
+          height: 25px !important;
+          line-height: 25px !important;
+          font-size: 25px !important;
+        }
+        .socialWrapper {
+          margin-left: auto;
+          margin-right: auto;
+          float: left;
+        }
+        .spaceToHide {
+          display: none;
+        }
+        .sponsor {
+          width: 110px;
+          max-width: 110px;
+          float: left;
+        }
+        .sponsor img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .top-10 {
+          margin-top: 10px !important;
+        }
+        .top-15 {
+          margin-top: 15px !important;
+        }
+        .top-20 {
+          margin-top: 20px !important;
+        }
+        .top-25 {
+          margin-top: 25px !important;
+        }
+        .top-30 {
+          margin-top: 30px !important;
+        }
+        .top-35 {
+          margin-top: 35px !important;
+        }
+        .top-40 {
+          margin-top: 40px !important;
+        }
+        .top-45 {
+          margin-top: 45px !important;
+        }
+      }
+    </style>
+
+    <!--[if (gte mso 9)|(IE)]>
+    <style type="text/css">
+        table {
+        border-collapse: collapse;
+        border-spacing: 0; 
+        mso-line-height-rule: exactly; 
+        mso-margin-bottom-alt: 0; 
+        mso-margin-top-alt: 0; 
+        mso-table-lspace: 0pt; mso-table-rspace: 0pt;}
+        </style>
+         <![endif]-->
+    <style type="text/css">
+      /* Reset */
+      .ExternalClass {
+        width: 100%;
+      }
+      .ExternalClass,
+      .ExternalClass p,
+      .ExternalClass span,
+      .ExternalClass font,
+      .ExternalClass td,
+      .ExternalClass div {
+        line-height: 100%;
+      }
+      body {
+        -webkit-text-size-adjust: none;
+        -ms-text-size-adjust: none;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      table td {
+        border-collapse: collapse;
+      }
+      a,
+      a:link {
+        color: inherit;
+        text-decoration: underline;
+      }
+      span.yshortcuts {
+        color: inherit;
+        background-color: none;
+        border: none;
+      }
+      span.yshortcuts:hover,
+      span.yshortcuts:active,
+      span.yshortcuts:focus {
+        color: inherit;
+        background-color: none;
+        border: none;
+      }
+      @media screen {
+        @font-face {
+          font-family: 'MarkWebPro-ExtraLightW01Rg';
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-ExtraLightW01Rg.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-ExtraLightW01Rg.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkWebPro-ExtraLightW01Rg.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkWebPro-ExtraLightW01Rg.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkWebPro-ExtraLightW01Rg.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkWebPro-ExtraLightW01Rg.svg#MarkWebPro-ExtraLightW01Rg') format('svg');
+          font-weight: 300;
+        }
+        @font-face {
+          font-family: 'MarkWebPro-LightW01Regular';
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-LightW01Regular.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-LightW01Regular.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkWebPro-LightW01Regular.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkWebPro-LightW01Regular.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkWebPro-LightW01Regular.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkWebPro-LightW01Regular.svg#MarkWebPro-LightW01Regular') format('svg');
+          font-weight: bold;
+        }
+        @font-face {
+          font-family: 'MarkWebW01Regular';
+          src: url('https://mastercardevents.com/webfonts/MarkWebW01Regular.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkWebW01Regular.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkWebW01Regular.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkWebW01Regular.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkWebW01Regular.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkWebW01Regular.svg#MarkWebW01Regular') format('svg');
+          font-weight: bold;
+        }
+        @font-face {
+          font-family: 'MarkWebPro-MediumW01Regular';
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-MediumW01Regular.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-MediumW01Regular.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkWebPro-MediumW01Regular.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkWebPro-MediumW01Regular.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkWebPro-MediumW01Regular.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkWebPro-MediumW01Regular.svg#MarkWebPro-MediumW01Regular') format('svg');
+          font-weight: bold;
+        }
+        @font-face {
+          font-family: 'MarkWebPro-BoldW01Regular';
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-BoldW01Regular.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-BoldW01Regular.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkWebPro-BoldW01Regular.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkWebPro-BoldW01Regular.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkWebPro-BoldW01Regular.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkWebPro-BoldW01Regular.svg#MarkWebPro-BoldW01Regular') format('svg');
+          font-weight: bold;
+        }
+        @font-face {
+          font-family: 'MarkForMCNarrowW00-Regular';
+          src: url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Regular.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Regular.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Regular.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Regular.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Regular.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Regular.svg#MarkForMCNarrowW00-Regular') format('svg');
+          font-weight: bold;
+        }
+        @font-face {
+          font-family: 'MarkForMCNarrowW00-Medium';
+          src: url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Medium.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Medium.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Medium.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Medium.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Medium.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Medium.svg#MarkForMCNarrowW00-Medium') format('svg');
+          font-weight: bold;
+        }
+        @font-face {
+          font-family: 'MarkForMCNarrowW00-Bold';
+          src: url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Bold.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Bold.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Bold.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Bold.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Bold.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Bold.svg#MarkForMCNarrowW00-Bold') format('svg');
+          font-weight: bold;
+        }
+      }
+      /*Outlook fix */
+      p.MsoNormal {
+        margin: 0px !important;
+      }
+      [style*='MarkWebPro-ExtraLightW01Rg'] {
+        font-family: 'MarkWebPro-ExtraLightW01Rg', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkWebPro-LightW01Regular'] {
+        font-family: 'MarkWebPro-LightW01Regular', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkWebW01Regular'] {
+        font-family: 'MarkWebW01Regular', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkWebPro-MediumW01Regular'] {
+        font-family: 'MarkWebPro-MediumW01Regular', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkWebPro-BoldW01Regular'] {
+        font-family: 'MarkWebPro-BoldW01Regular', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkForMCNarrowW00-Regular'] {
+        font-family: 'MarkForMCNarrowW00-Regular', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkForMCNarrowW00-Medium'] {
+        font-family: 'MarkForMCNarrowW00-Medium', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkForMCNarrowW00-Bold'] {
+        font-family: 'MarkForMCNarrowW00-Bold', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      /*Responsive Century Gothic, Arial, sans-serif !important;*/
+      @media only screen and (max-width: 667px) {
+        .badge {
+          width: 118px;
+          max-width: 118px;
+          float: left;
+        }
+        .badge img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .banner {
+          min-width: 100% !important;
+          width: 100% !important;
+        }
+        .banner img {
+          height: auto !important;
+          width: 100% !important;
+          margin-left: auto;
+          margin-right: auto;
+        }
+        .bioImg {
+          width: 100px;
+          max-width: 100px;
+          float: left;
+        }
+        .bioImg img {
+          width: 100% !important;
+          max-width: 100px !important;
+          height: auto !important;
+        }
+        .btn {
+          width: 190px;
+          max-width: 190px;
+          float: none;
+        }
+        .btn img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .center {
+          text-align: center !important;
+        }
+        .col-50 {
+          float: none;
+          width: 100% !important;
+        }
+        .content {
+          width: 90%;
+          margin-left: auto;
+          margin-right: auto;
+          float: none;
+        }
+        .container {
+          width: 100% !important;
+          margin-left: auto;
+          margin-right: auto;
+          float: none;
+        }
+        .event-logo {
+          width: 170px;
+          max-width: 170px;
+          float: right;
+          padding-left: 25px;
+        }
+        .event-logo img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .height-auto {
+          height: auto !important;
+        }
+        .hero {
+          float: left;
+          width: 100% !important;
+        }
+        .icon {
+          width: 55px;
+          max-width: 55px;
+          float: left;
+        }
+        .icon img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .icon-social {
+          width: 30px;
+          max-width: 30px;
+          float: left;
+        }
+        .icon-social img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .imgBlock {
+          height: auto !important;
+        }
+        .left {
+          float: left;
+        }
+        .less-space {
+          height: 15px !important;
+          line-height: 15px !important;
+          font-size: 15px !important;
+        }
+        .mainContainer {
+          width: 100% !important;
+          min-width: 100% !important;
+          height: auto !important;
+          margin-left: auto;
+          margin-right: auto;
+          float: none;
+        }
+        .mc-inconvoWith {
+          width: 190px;
+          max-width: 190px;
+          float: left;
+        }
+        .mc-inconvoWith img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .mc-symbol {
+          width: 53px;
+          max-width: 53px;
+          float: left;
+        }
+        .mc-symbol img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .micro-space {
+          height: 12px !important;
+          line-height: 12px !important;
+          font-size: 12px !important;
+        }
+        .more-space {
+          height: 25px !important;
+          line-height: 25px !important;
+          font-size: 25px !important;
+        }
+        .socialWrapper {
+          margin-left: auto;
+          margin-right: auto;
+          float: left;
+        }
+        .spaceToHide {
+          display: none;
+        }
+        .sponsor {
+          width: 110px;
+          max-width: 110px;
+          float: left;
+        }
+        .sponsor img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .top-10 {
+          margin-top: 10px !important;
+        }
+        .top-15 {
+          margin-top: 15px !important;
+        }
+        .top-20 {
+          margin-top: 20px !important;
+        }
+        .top-25 {
+          margin-top: 25px !important;
+        }
+        .top-30 {
+          margin-top: 30px !important;
+        }
+        .top-35 {
+          margin-top: 35px !important;
+        }
+        .top-40 {
+          margin-top: 40px !important;
+        }
+        .top-45 {
+          margin-top: 45px !important;
+        }
+      }
+    </style>
+
+    <!--[if (gte mso 9)|(IE)]>
+    <style type="text/css">
+        table {
+        border-collapse: collapse;
+        border-spacing: 0; 
+        mso-line-height-rule: exactly; 
+        mso-margin-bottom-alt: 0; 
+        mso-margin-top-alt: 0; 
+        mso-table-lspace: 0pt; mso-table-rspace: 0pt;}
+        </style>
+         <![endif]-->
+    <style type="text/css">
+      /* Reset */
+      .ExternalClass {
+        width: 100%;
+      }
+      .ExternalClass,
+      .ExternalClass p,
+      .ExternalClass span,
+      .ExternalClass font,
+      .ExternalClass td,
+      .ExternalClass div {
+        line-height: 100%;
+      }
+      body {
+        -webkit-text-size-adjust: none;
+        -ms-text-size-adjust: none;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      table td {
+        border-collapse: collapse;
+      }
+      a,
+      a:link {
+        color: inherit;
+        text-decoration: underline;
+      }
+      span.yshortcuts {
+        color: inherit;
+        background-color: none;
+        border: none;
+      }
+      span.yshortcuts:hover,
+      span.yshortcuts:active,
+      span.yshortcuts:focus {
+        color: inherit;
+        background-color: none;
+        border: none;
+      }
+      @media screen {
+        @font-face {
+          font-family: 'MarkWebPro-ExtraLightW01Rg';
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-ExtraLightW01Rg.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-ExtraLightW01Rg.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkWebPro-ExtraLightW01Rg.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkWebPro-ExtraLightW01Rg.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkWebPro-ExtraLightW01Rg.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkWebPro-ExtraLightW01Rg.svg#MarkWebPro-ExtraLightW01Rg') format('svg');
+          font-weight: 300;
+        }
+        @font-face {
+          font-family: 'MarkWebPro-LightW01Regular';
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-LightW01Regular.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-LightW01Regular.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkWebPro-LightW01Regular.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkWebPro-LightW01Regular.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkWebPro-LightW01Regular.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkWebPro-LightW01Regular.svg#MarkWebPro-LightW01Regular') format('svg');
+          font-weight: bold;
+        }
+        @font-face {
+          font-family: 'MarkWebW01Regular';
+          src: url('https://mastercardevents.com/webfonts/MarkWebW01Regular.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkWebW01Regular.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkWebW01Regular.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkWebW01Regular.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkWebW01Regular.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkWebW01Regular.svg#MarkWebW01Regular') format('svg');
+          font-weight: bold;
+        }
+        @font-face {
+          font-family: 'MarkWebPro-MediumW01Regular';
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-MediumW01Regular.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-MediumW01Regular.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkWebPro-MediumW01Regular.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkWebPro-MediumW01Regular.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkWebPro-MediumW01Regular.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkWebPro-MediumW01Regular.svg#MarkWebPro-MediumW01Regular') format('svg');
+          font-weight: bold;
+        }
+        @font-face {
+          font-family: 'MarkWebPro-BoldW01Regular';
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-BoldW01Regular.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-BoldW01Regular.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkWebPro-BoldW01Regular.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkWebPro-BoldW01Regular.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkWebPro-BoldW01Regular.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkWebPro-BoldW01Regular.svg#MarkWebPro-BoldW01Regular') format('svg');
+          font-weight: bold;
+        }
+        @font-face {
+          font-family: 'MarkForMCNarrowW00-Regular';
+          src: url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Regular.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Regular.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Regular.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Regular.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Regular.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Regular.svg#MarkForMCNarrowW00-Regular') format('svg');
+          font-weight: bold;
+        }
+        @font-face {
+          font-family: 'MarkForMCNarrowW00-Medium';
+          src: url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Medium.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Medium.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Medium.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Medium.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Medium.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Medium.svg#MarkForMCNarrowW00-Medium') format('svg');
+          font-weight: bold;
+        }
+        @font-face {
+          font-family: 'MarkForMCNarrowW00-Bold';
+          src: url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Bold.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Bold.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Bold.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Bold.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Bold.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Bold.svg#MarkForMCNarrowW00-Bold') format('svg');
+          font-weight: bold;
+        }
+      }
+      /*Outlook fix */
+      p.MsoNormal {
+        margin: 0px !important;
+      }
+      [style*='MarkWebPro-ExtraLightW01Rg'] {
+        font-family: 'MarkWebPro-ExtraLightW01Rg', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkWebPro-LightW01Regular'] {
+        font-family: 'MarkWebPro-LightW01Regular', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkWebW01Regular'] {
+        font-family: 'MarkWebW01Regular', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkWebPro-MediumW01Regular'] {
+        font-family: 'MarkWebPro-MediumW01Regular', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkWebPro-BoldW01Regular'] {
+        font-family: 'MarkWebPro-BoldW01Regular', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkForMCNarrowW00-Regular'] {
+        font-family: 'MarkForMCNarrowW00-Regular', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkForMCNarrowW00-Medium'] {
+        font-family: 'MarkForMCNarrowW00-Medium', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkForMCNarrowW00-Bold'] {
+        font-family: 'MarkForMCNarrowW00-Bold', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      /*Responsive Century Gothic, Arial, sans-serif !important;*/
+      @media only screen and (max-width: 667px) {
+        .badge {
+          width: 118px;
+          max-width: 118px;
+          float: left;
+        }
+        .badge img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .banner {
+          min-width: 100% !important;
+          width: 100% !important;
+        }
+        .banner img {
+          height: auto !important;
+          width: 100% !important;
+          margin-left: auto;
+          margin-right: auto;
+        }
+        .bioImg {
+          width: 100px;
+          max-width: 100px;
+          float: left;
+        }
+        .bioImg img {
+          width: 100% !important;
+          max-width: 100px !important;
+          height: auto !important;
+        }
+        .btn {
+          width: 190px;
+          max-width: 190px;
+          float: none;
+        }
+        .btn img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .center {
+          text-align: center !important;
+        }
+        .col-50 {
+          float: none;
+          width: 100% !important;
+        }
+        .content {
+          width: 90%;
+          margin-left: auto;
+          margin-right: auto;
+          float: none;
+        }
+        .container {
+          width: 100% !important;
+          margin-left: auto;
+          margin-right: auto;
+          float: none;
+        }
+        .event-logo {
+          width: 170px;
+          max-width: 170px;
+          float: right;
+          padding-left: 25px;
+        }
+        .event-logo img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .height-auto {
+          height: auto !important;
+        }
+        .hero {
+          float: left;
+          width: 100% !important;
+        }
+        .icon {
+          width: 55px;
+          max-width: 55px;
+          float: left;
+        }
+        .icon img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .icon-social {
+          width: 30px;
+          max-width: 30px;
+          float: left;
+        }
+        .icon-social img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .imgBlock {
+          height: auto !important;
+        }
+        .left {
+          float: left;
+        }
+        .less-space {
+          height: 15px !important;
+          line-height: 15px !important;
+          font-size: 15px !important;
+        }
+        .mainContainer {
+          width: 100% !important;
+          min-width: 100% !important;
+          height: auto !important;
+          margin-left: auto;
+          margin-right: auto;
+          float: none;
+        }
+        .mc-inconvoWith {
+          width: 190px;
+          max-width: 190px;
+          float: left;
+        }
+        .mc-inconvoWith img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .mc-symbol {
+          width: 53px;
+          max-width: 53px;
+          float: left;
+        }
+        .mc-symbol img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .micro-space {
+          height: 12px !important;
+          line-height: 12px !important;
+          font-size: 12px !important;
+        }
+        .more-space {
+          height: 25px !important;
+          line-height: 25px !important;
+          font-size: 25px !important;
+        }
+        .socialWrapper {
+          margin-left: auto;
+          margin-right: auto;
+          float: left;
+        }
+        .spaceToHide {
+          display: none;
+        }
+        .sponsor {
+          width: 110px;
+          max-width: 110px;
+          float: left;
+        }
+        .sponsor img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .top-10 {
+          margin-top: 10px !important;
+        }
+        .top-15 {
+          margin-top: 15px !important;
+        }
+        .top-20 {
+          margin-top: 20px !important;
+        }
+        .top-25 {
+          margin-top: 25px !important;
+        }
+        .top-30 {
+          margin-top: 30px !important;
+        }
+        .top-35 {
+          margin-top: 35px !important;
+        }
+        .top-40 {
+          margin-top: 40px !important;
+        }
+        .top-45 {
+          margin-top: 45px !important;
+        }
+      }
+    </style>
+
+    <!--[if (gte mso 9)|(IE)]>
+    <style type="text/css">
+        table {
+        border-collapse: collapse;
+        border-spacing: 0; 
+        mso-line-height-rule: exactly; 
+        mso-margin-bottom-alt: 0; 
+        mso-margin-top-alt: 0; 
+        mso-table-lspace: 0pt; mso-table-rspace: 0pt;}
+        </style>
+         <![endif]-->
+    <style type="text/css">
+      /* Reset */
+      .ExternalClass {
+        width: 100%;
+      }
+      .ExternalClass,
+      .ExternalClass p,
+      .ExternalClass span,
+      .ExternalClass font,
+      .ExternalClass td,
+      .ExternalClass div {
+        line-height: 100%;
+      }
+      body {
+        -webkit-text-size-adjust: none;
+        -ms-text-size-adjust: none;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      table td {
+        border-collapse: collapse;
+      }
+      a,
+      a:link {
+        color: inherit;
+        text-decoration: underline;
+      }
+      span.yshortcuts {
+        color: inherit;
+        background-color: none;
+        border: none;
+      }
+      span.yshortcuts:hover,
+      span.yshortcuts:active,
+      span.yshortcuts:focus {
+        color: inherit;
+        background-color: none;
+        border: none;
+      }
+      @media screen {
+        @font-face {
+          font-family: 'MarkWebPro-ExtraLightW01Rg';
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-ExtraLightW01Rg.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-ExtraLightW01Rg.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkWebPro-ExtraLightW01Rg.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkWebPro-ExtraLightW01Rg.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkWebPro-ExtraLightW01Rg.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkWebPro-ExtraLightW01Rg.svg#MarkWebPro-ExtraLightW01Rg') format('svg');
+          font-weight: 300;
+        }
+        @font-face {
+          font-family: 'MarkWebPro-LightW01Regular';
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-LightW01Regular.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-LightW01Regular.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkWebPro-LightW01Regular.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkWebPro-LightW01Regular.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkWebPro-LightW01Regular.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkWebPro-LightW01Regular.svg#MarkWebPro-LightW01Regular') format('svg');
+          font-weight: bold;
+        }
+        @font-face {
+          font-family: 'MarkWebW01Regular';
+          src: url('https://mastercardevents.com/webfonts/MarkWebW01Regular.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkWebW01Regular.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkWebW01Regular.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkWebW01Regular.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkWebW01Regular.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkWebW01Regular.svg#MarkWebW01Regular') format('svg');
+          font-weight: bold;
+        }
+        @font-face {
+          font-family: 'MarkWebPro-MediumW01Regular';
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-MediumW01Regular.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-MediumW01Regular.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkWebPro-MediumW01Regular.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkWebPro-MediumW01Regular.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkWebPro-MediumW01Regular.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkWebPro-MediumW01Regular.svg#MarkWebPro-MediumW01Regular') format('svg');
+          font-weight: bold;
+        }
+        @font-face {
+          font-family: 'MarkWebPro-BoldW01Regular';
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-BoldW01Regular.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-BoldW01Regular.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkWebPro-BoldW01Regular.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkWebPro-BoldW01Regular.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkWebPro-BoldW01Regular.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkWebPro-BoldW01Regular.svg#MarkWebPro-BoldW01Regular') format('svg');
+          font-weight: bold;
+        }
+        @font-face {
+          font-family: 'MarkForMCNarrowW00-Regular';
+          src: url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Regular.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Regular.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Regular.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Regular.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Regular.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Regular.svg#MarkForMCNarrowW00-Regular') format('svg');
+          font-weight: bold;
+        }
+        @font-face {
+          font-family: 'MarkForMCNarrowW00-Medium';
+          src: url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Medium.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Medium.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Medium.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Medium.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Medium.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Medium.svg#MarkForMCNarrowW00-Medium') format('svg');
+          font-weight: bold;
+        }
+        @font-face {
+          font-family: 'MarkForMCNarrowW00-Bold';
+          src: url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Bold.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Bold.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Bold.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Bold.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Bold.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Bold.svg#MarkForMCNarrowW00-Bold') format('svg');
+          font-weight: bold;
+        }
+      }
+      /*Outlook fix */
+      p.MsoNormal {
+        margin: 0px !important;
+      }
+      [style*='MarkWebPro-ExtraLightW01Rg'] {
+        font-family: 'MarkWebPro-ExtraLightW01Rg', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkWebPro-LightW01Regular'] {
+        font-family: 'MarkWebPro-LightW01Regular', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkWebW01Regular'] {
+        font-family: 'MarkWebW01Regular', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkWebPro-MediumW01Regular'] {
+        font-family: 'MarkWebPro-MediumW01Regular', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkWebPro-BoldW01Regular'] {
+        font-family: 'MarkWebPro-BoldW01Regular', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkForMCNarrowW00-Regular'] {
+        font-family: 'MarkForMCNarrowW00-Regular', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkForMCNarrowW00-Medium'] {
+        font-family: 'MarkForMCNarrowW00-Medium', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkForMCNarrowW00-Bold'] {
+        font-family: 'MarkForMCNarrowW00-Bold', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      /*Responsive Century Gothic, Arial, sans-serif !important;*/
+      @media only screen and (max-width: 667px) {
+        .badge {
+          width: 118px;
+          max-width: 118px;
+          float: left;
+        }
+        .badge img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .banner {
+          min-width: 100% !important;
+          width: 100% !important;
+        }
+        .banner img {
+          height: auto !important;
+          width: 100% !important;
+          margin-left: auto;
+          margin-right: auto;
+        }
+        .bioImg {
+          width: 100px;
+          max-width: 100px;
+          float: left;
+        }
+        .bioImg img {
+          width: 100% !important;
+          max-width: 100px !important;
+          height: auto !important;
+        }
+        .btn {
+          width: 190px;
+          max-width: 190px;
+          float: none;
+        }
+        .btn img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .center {
+          text-align: center !important;
+        }
+        .col-50 {
+          float: none;
+          width: 100% !important;
+        }
+        .content {
+          width: 90%;
+          margin-left: auto;
+          margin-right: auto;
+          float: none;
+        }
+        .container {
+          width: 100% !important;
+          margin-left: auto;
+          margin-right: auto;
+          float: none;
+        }
+        .event-logo {
+          width: 170px;
+          max-width: 170px;
+          float: right;
+          padding-left: 25px;
+        }
+        .event-logo img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .height-auto {
+          height: auto !important;
+        }
+        .hero {
+          float: left;
+          width: 100% !important;
+        }
+        .icon {
+          width: 55px;
+          max-width: 55px;
+          float: left;
+        }
+        .icon img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .icon-social {
+          width: 30px;
+          max-width: 30px;
+          float: left;
+        }
+        .icon-social img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .imgBlock {
+          height: auto !important;
+        }
+        .left {
+          float: left;
+        }
+        .less-space {
+          height: 15px !important;
+          line-height: 15px !important;
+          font-size: 15px !important;
+        }
+        .mainContainer {
+          width: 100% !important;
+          min-width: 100% !important;
+          height: auto !important;
+          margin-left: auto;
+          margin-right: auto;
+          float: none;
+        }
+        .mc-inconvoWith {
+          width: 190px;
+          max-width: 190px;
+          float: left;
+        }
+        .mc-inconvoWith img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .mc-symbol {
+          width: 53px;
+          max-width: 53px;
+          float: left;
+        }
+        .mc-symbol img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .micro-space {
+          height: 12px !important;
+          line-height: 12px !important;
+          font-size: 12px !important;
+        }
+        .more-space {
+          height: 25px !important;
+          line-height: 25px !important;
+          font-size: 25px !important;
+        }
+        .socialWrapper {
+          margin-left: auto;
+          margin-right: auto;
+          float: left;
+        }
+        .spaceToHide {
+          display: none;
+        }
+        .sponsor {
+          width: 110px;
+          max-width: 110px;
+          float: left;
+        }
+        .sponsor img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .top-10 {
+          margin-top: 10px !important;
+        }
+        .top-15 {
+          margin-top: 15px !important;
+        }
+        .top-20 {
+          margin-top: 20px !important;
+        }
+        .top-25 {
+          margin-top: 25px !important;
+        }
+        .top-30 {
+          margin-top: 30px !important;
+        }
+        .top-35 {
+          margin-top: 35px !important;
+        }
+        .top-40 {
+          margin-top: 40px !important;
+        }
+        .top-45 {
+          margin-top: 45px !important;
+        }
+      }
+    </style>
+
+    <!--[if (gte mso 9)|(IE)]>
+    <style type="text/css">
+        table {
+        border-collapse: collapse;
+        border-spacing: 0; 
+        mso-line-height-rule: exactly; 
+        mso-margin-bottom-alt: 0; 
+        mso-margin-top-alt: 0; 
+        mso-table-lspace: 0pt; mso-table-rspace: 0pt;}
+        </style>
+         <![endif]-->
+    <style type="text/css">
+      /* Reset */
+      .ExternalClass {
+        width: 100%;
+      }
+      .ExternalClass,
+      .ExternalClass p,
+      .ExternalClass span,
+      .ExternalClass font,
+      .ExternalClass td,
+      .ExternalClass div {
+        line-height: 100%;
+      }
+      body {
+        -webkit-text-size-adjust: none;
+        -ms-text-size-adjust: none;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      table td {
+        border-collapse: collapse;
+      }
+      a,
+      a:link {
+        color: inherit;
+        text-decoration: underline;
+      }
+      span.yshortcuts {
+        color: inherit;
+        background-color: none;
+        border: none;
+      }
+      span.yshortcuts:hover,
+      span.yshortcuts:active,
+      span.yshortcuts:focus {
+        color: inherit;
+        background-color: none;
+        border: none;
+      }
+      @media screen {
+        @font-face {
+          font-family: 'MarkWebPro-ExtraLightW01Rg';
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-ExtraLightW01Rg.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-ExtraLightW01Rg.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkWebPro-ExtraLightW01Rg.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkWebPro-ExtraLightW01Rg.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkWebPro-ExtraLightW01Rg.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkWebPro-ExtraLightW01Rg.svg#MarkWebPro-ExtraLightW01Rg') format('svg');
+          font-weight: 300;
+        }
+        @font-face {
+          font-family: 'MarkWebPro-LightW01Regular';
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-LightW01Regular.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-LightW01Regular.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkWebPro-LightW01Regular.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkWebPro-LightW01Regular.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkWebPro-LightW01Regular.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkWebPro-LightW01Regular.svg#MarkWebPro-LightW01Regular') format('svg');
+          font-weight: bold;
+        }
+        @font-face {
+          font-family: 'MarkWebW01Regular';
+          src: url('https://mastercardevents.com/webfonts/MarkWebW01Regular.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkWebW01Regular.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkWebW01Regular.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkWebW01Regular.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkWebW01Regular.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkWebW01Regular.svg#MarkWebW01Regular') format('svg');
+          font-weight: bold;
+        }
+        @font-face {
+          font-family: 'MarkWebPro-MediumW01Regular';
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-MediumW01Regular.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-MediumW01Regular.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkWebPro-MediumW01Regular.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkWebPro-MediumW01Regular.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkWebPro-MediumW01Regular.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkWebPro-MediumW01Regular.svg#MarkWebPro-MediumW01Regular') format('svg');
+          font-weight: bold;
+        }
+        @font-face {
+          font-family: 'MarkWebPro-BoldW01Regular';
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-BoldW01Regular.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-BoldW01Regular.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkWebPro-BoldW01Regular.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkWebPro-BoldW01Regular.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkWebPro-BoldW01Regular.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkWebPro-BoldW01Regular.svg#MarkWebPro-BoldW01Regular') format('svg');
+          font-weight: bold;
+        }
+        @font-face {
+          font-family: 'MarkForMCNarrowW00-Regular';
+          src: url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Regular.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Regular.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Regular.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Regular.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Regular.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Regular.svg#MarkForMCNarrowW00-Regular') format('svg');
+          font-weight: bold;
+        }
+        @font-face {
+          font-family: 'MarkForMCNarrowW00-Medium';
+          src: url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Medium.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Medium.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Medium.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Medium.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Medium.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Medium.svg#MarkForMCNarrowW00-Medium') format('svg');
+          font-weight: bold;
+        }
+        @font-face {
+          font-family: 'MarkForMCNarrowW00-Bold';
+          src: url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Bold.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Bold.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Bold.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Bold.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Bold.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Bold.svg#MarkForMCNarrowW00-Bold') format('svg');
+          font-weight: bold;
+        }
+      }
+      /*Outlook fix */
+      p.MsoNormal {
+        margin: 0px !important;
+      }
+      [style*='MarkWebPro-ExtraLightW01Rg'] {
+        font-family: 'MarkWebPro-ExtraLightW01Rg', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkWebPro-LightW01Regular'] {
+        font-family: 'MarkWebPro-LightW01Regular', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkWebW01Regular'] {
+        font-family: 'MarkWebW01Regular', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkWebPro-MediumW01Regular'] {
+        font-family: 'MarkWebPro-MediumW01Regular', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkWebPro-BoldW01Regular'] {
+        font-family: 'MarkWebPro-BoldW01Regular', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkForMCNarrowW00-Regular'] {
+        font-family: 'MarkForMCNarrowW00-Regular', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkForMCNarrowW00-Medium'] {
+        font-family: 'MarkForMCNarrowW00-Medium', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkForMCNarrowW00-Bold'] {
+        font-family: 'MarkForMCNarrowW00-Bold', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      /*Responsive Century Gothic, Arial, sans-serif !important;*/
+      @media only screen and (max-width: 667px) {
+        .badge {
+          width: 118px;
+          max-width: 118px;
+          float: left;
+        }
+        .badge img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .banner {
+          min-width: 100% !important;
+          width: 100% !important;
+        }
+        .banner img {
+          height: auto !important;
+          width: 100% !important;
+          margin-left: auto;
+          margin-right: auto;
+        }
+        .bioImg {
+          width: 100px;
+          max-width: 100px;
+          float: left;
+        }
+        .bioImg img {
+          width: 100% !important;
+          max-width: 100px !important;
+          height: auto !important;
+        }
+        .btn {
+          width: 190px;
+          max-width: 190px;
+          float: none;
+        }
+        .btn img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .center {
+          text-align: center !important;
+        }
+        .col-50 {
+          float: none;
+          width: 100% !important;
+        }
+        .content {
+          width: 90%;
+          margin-left: auto;
+          margin-right: auto;
+          float: none;
+        }
+        .container {
+          width: 100% !important;
+          margin-left: auto;
+          margin-right: auto;
+          float: none;
+        }
+        .event-logo {
+          width: 170px;
+          max-width: 170px;
+          float: right;
+          padding-left: 25px;
+        }
+        .event-logo img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .height-auto {
+          height: auto !important;
+        }
+        .hero {
+          float: left;
+          width: 100% !important;
+        }
+        .icon {
+          width: 55px;
+          max-width: 55px;
+          float: left;
+        }
+        .icon img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .icon-social {
+          width: 30px;
+          max-width: 30px;
+          float: left;
+        }
+        .icon-social img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .imgBlock {
+          height: auto !important;
+        }
+        .left {
+          float: left;
+        }
+        .less-space {
+          height: 15px !important;
+          line-height: 15px !important;
+          font-size: 15px !important;
+        }
+        .mainContainer {
+          width: 100% !important;
+          min-width: 100% !important;
+          height: auto !important;
+          margin-left: auto;
+          margin-right: auto;
+          float: none;
+        }
+        .mc-inconvoWith {
+          width: 190px;
+          max-width: 190px;
+          float: left;
+        }
+        .mc-inconvoWith img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .mc-symbol {
+          width: 53px;
+          max-width: 53px;
+          float: left;
+        }
+        .mc-symbol img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .micro-space {
+          height: 12px !important;
+          line-height: 12px !important;
+          font-size: 12px !important;
+        }
+        .more-space {
+          height: 25px !important;
+          line-height: 25px !important;
+          font-size: 25px !important;
+        }
+        .socialWrapper {
+          margin-left: auto;
+          margin-right: auto;
+          float: left;
+        }
+        .spaceToHide {
+          display: none;
+        }
+        .sponsor {
+          width: 110px;
+          max-width: 110px;
+          float: left;
+        }
+        .sponsor img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .top-10 {
+          margin-top: 10px !important;
+        }
+        .top-15 {
+          margin-top: 15px !important;
+        }
+        .top-20 {
+          margin-top: 20px !important;
+        }
+        .top-25 {
+          margin-top: 25px !important;
+        }
+        .top-30 {
+          margin-top: 30px !important;
+        }
+        .top-35 {
+          margin-top: 35px !important;
+        }
+        .top-40 {
+          margin-top: 40px !important;
+        }
+        .top-45 {
+          margin-top: 45px !important;
+        }
+      }
+    </style>
+
+    <!--[if (gte mso 9)|(IE)]>
+    <style type="text/css">
+        table {
+        border-collapse: collapse;
+        border-spacing: 0; 
+        mso-line-height-rule: exactly; 
+        mso-margin-bottom-alt: 0; 
+        mso-margin-top-alt: 0; 
+        mso-table-lspace: 0pt; mso-table-rspace: 0pt;}
+        </style>
+         <![endif]-->
+    <style type="text/css">
+      /* Reset */
+      .ExternalClass {
+        width: 100%;
+      }
+      .ExternalClass,
+      .ExternalClass p,
+      .ExternalClass span,
+      .ExternalClass font,
+      .ExternalClass td,
+      .ExternalClass div {
+        line-height: 100%;
+      }
+      body {
+        -webkit-text-size-adjust: none;
+        -ms-text-size-adjust: none;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      table td {
+        border-collapse: collapse;
+      }
+      a,
+      a:link {
+        color: inherit;
+        text-decoration: underline;
+      }
+      span.yshortcuts {
+        color: inherit;
+        background-color: none;
+        border: none;
+      }
+      span.yshortcuts:hover,
+      span.yshortcuts:active,
+      span.yshortcuts:focus {
+        color: inherit;
+        background-color: none;
+        border: none;
+      }
+      @media screen {
+        @font-face {
+          font-family: 'MarkWebPro-ExtraLightW01Rg';
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-ExtraLightW01Rg.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-ExtraLightW01Rg.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkWebPro-ExtraLightW01Rg.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkWebPro-ExtraLightW01Rg.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkWebPro-ExtraLightW01Rg.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkWebPro-ExtraLightW01Rg.svg#MarkWebPro-ExtraLightW01Rg') format('svg');
+          font-weight: 300;
+        }
+        @font-face {
+          font-family: 'MarkWebPro-LightW01Regular';
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-LightW01Regular.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-LightW01Regular.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkWebPro-LightW01Regular.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkWebPro-LightW01Regular.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkWebPro-LightW01Regular.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkWebPro-LightW01Regular.svg#MarkWebPro-LightW01Regular') format('svg');
+          font-weight: bold;
+        }
+        @font-face {
+          font-family: 'MarkWebW01Regular';
+          src: url('https://mastercardevents.com/webfonts/MarkWebW01Regular.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkWebW01Regular.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkWebW01Regular.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkWebW01Regular.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkWebW01Regular.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkWebW01Regular.svg#MarkWebW01Regular') format('svg');
+          font-weight: bold;
+        }
+        @font-face {
+          font-family: 'MarkWebPro-MediumW01Regular';
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-MediumW01Regular.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-MediumW01Regular.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkWebPro-MediumW01Regular.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkWebPro-MediumW01Regular.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkWebPro-MediumW01Regular.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkWebPro-MediumW01Regular.svg#MarkWebPro-MediumW01Regular') format('svg');
+          font-weight: bold;
+        }
+        @font-face {
+          font-family: 'MarkWebPro-BoldW01Regular';
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-BoldW01Regular.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-BoldW01Regular.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkWebPro-BoldW01Regular.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkWebPro-BoldW01Regular.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkWebPro-BoldW01Regular.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkWebPro-BoldW01Regular.svg#MarkWebPro-BoldW01Regular') format('svg');
+          font-weight: bold;
+        }
+        @font-face {
+          font-family: 'MarkForMCNarrowW00-Regular';
+          src: url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Regular.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Regular.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Regular.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Regular.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Regular.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Regular.svg#MarkForMCNarrowW00-Regular') format('svg');
+          font-weight: bold;
+        }
+        @font-face {
+          font-family: 'MarkForMCNarrowW00-Medium';
+          src: url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Medium.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Medium.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Medium.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Medium.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Medium.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Medium.svg#MarkForMCNarrowW00-Medium') format('svg');
+          font-weight: bold;
+        }
+        @font-face {
+          font-family: 'MarkForMCNarrowW00-Bold';
+          src: url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Bold.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Bold.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Bold.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Bold.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Bold.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Bold.svg#MarkForMCNarrowW00-Bold') format('svg');
+          font-weight: bold;
+        }
+      }
+      /*Outlook fix */
+      p.MsoNormal {
+        margin: 0px !important;
+      }
+      [style*='MarkWebPro-ExtraLightW01Rg'] {
+        font-family: 'MarkWebPro-ExtraLightW01Rg', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkWebPro-LightW01Regular'] {
+        font-family: 'MarkWebPro-LightW01Regular', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkWebW01Regular'] {
+        font-family: 'MarkWebW01Regular', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkWebPro-MediumW01Regular'] {
+        font-family: 'MarkWebPro-MediumW01Regular', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkWebPro-BoldW01Regular'] {
+        font-family: 'MarkWebPro-BoldW01Regular', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkForMCNarrowW00-Regular'] {
+        font-family: 'MarkForMCNarrowW00-Regular', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkForMCNarrowW00-Medium'] {
+        font-family: 'MarkForMCNarrowW00-Medium', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkForMCNarrowW00-Bold'] {
+        font-family: 'MarkForMCNarrowW00-Bold', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      /*Responsive Century Gothic, Arial, sans-serif !important;*/
+      @media only screen and (max-width: 667px) {
+        .badge {
+          width: 118px;
+          max-width: 118px;
+          float: left;
+        }
+        .badge img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .banner {
+          min-width: 100% !important;
+          width: 100% !important;
+        }
+        .banner img {
+          height: auto !important;
+          width: 100% !important;
+          margin-left: auto;
+          margin-right: auto;
+        }
+        .bioImg {
+          width: 100px;
+          max-width: 100px;
+          float: left;
+        }
+        .bioImg img {
+          width: 100% !important;
+          max-width: 100px !important;
+          height: auto !important;
+        }
+        .btn {
+          width: 190px;
+          max-width: 190px;
+          float: none;
+        }
+        .btn img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .center {
+          text-align: center !important;
+        }
+        .col-50 {
+          float: none;
+          width: 100% !important;
+        }
+        .content {
+          width: 90%;
+          margin-left: auto;
+          margin-right: auto;
+          float: none;
+        }
+        .container {
+          width: 100% !important;
+          margin-left: auto;
+          margin-right: auto;
+          float: none;
+        }
+        .event-logo {
+          width: 170px;
+          max-width: 170px;
+          float: right;
+          padding-left: 25px;
+        }
+        .event-logo img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .height-auto {
+          height: auto !important;
+        }
+        .hero {
+          float: left;
+          width: 100% !important;
+        }
+        .icon {
+          width: 55px;
+          max-width: 55px;
+          float: left;
+        }
+        .icon img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .icon-social {
+          width: 30px;
+          max-width: 30px;
+          float: left;
+        }
+        .icon-social img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .imgBlock {
+          height: auto !important;
+        }
+        .left {
+          float: left;
+        }
+        .less-space {
+          height: 15px !important;
+          line-height: 15px !important;
+          font-size: 15px !important;
+        }
+        .mainContainer {
+          width: 100% !important;
+          min-width: 100% !important;
+          height: auto !important;
+          margin-left: auto;
+          margin-right: auto;
+          float: none;
+        }
+        .mc-inconvoWith {
+          width: 190px;
+          max-width: 190px;
+          float: left;
+        }
+        .mc-inconvoWith img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .mc-symbol {
+          width: 53px;
+          max-width: 53px;
+          float: left;
+        }
+        .mc-symbol img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .micro-space {
+          height: 12px !important;
+          line-height: 12px !important;
+          font-size: 12px !important;
+        }
+        .more-space {
+          height: 25px !important;
+          line-height: 25px !important;
+          font-size: 25px !important;
+        }
+        .socialWrapper {
+          margin-left: auto;
+          margin-right: auto;
+          float: left;
+        }
+        .spaceToHide {
+          display: none;
+        }
+        .sponsor {
+          width: 110px;
+          max-width: 110px;
+          float: left;
+        }
+        .sponsor img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .top-10 {
+          margin-top: 10px !important;
+        }
+        .top-15 {
+          margin-top: 15px !important;
+        }
+        .top-20 {
+          margin-top: 20px !important;
+        }
+        .top-25 {
+          margin-top: 25px !important;
+        }
+        .top-30 {
+          margin-top: 30px !important;
+        }
+        .top-35 {
+          margin-top: 35px !important;
+        }
+        .top-40 {
+          margin-top: 40px !important;
+        }
+        .top-45 {
+          margin-top: 45px !important;
+        }
+      }
+    </style>
+
+    <!--[if (gte mso 9)|(IE)]>
+    <style type="text/css">
+        table {
+        border-collapse: collapse;
+        border-spacing: 0; 
+        mso-line-height-rule: exactly; 
+        mso-margin-bottom-alt: 0; 
+        mso-margin-top-alt: 0; 
+        mso-table-lspace: 0pt; mso-table-rspace: 0pt;}
+        </style>
+         <![endif]-->
+    <style type="text/css">
+      /* Reset */
+      .ExternalClass {
+        width: 100%;
+      }
+      .ExternalClass,
+      .ExternalClass p,
+      .ExternalClass span,
+      .ExternalClass font,
+      .ExternalClass td,
+      .ExternalClass div {
+        line-height: 100%;
+      }
+      body {
+        -webkit-text-size-adjust: none;
+        -ms-text-size-adjust: none;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      table td {
+        border-collapse: collapse;
+      }
+      a,
+      a:link {
+        color: inherit;
+        text-decoration: underline;
+      }
+      span.yshortcuts {
+        color: inherit;
+        background-color: none;
+        border: none;
+      }
+      span.yshortcuts:hover,
+      span.yshortcuts:active,
+      span.yshortcuts:focus {
+        color: inherit;
+        background-color: none;
+        border: none;
+      }
+      @media screen {
+        @font-face {
+          font-family: 'MarkWebPro-ExtraLightW01Rg';
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-ExtraLightW01Rg.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-ExtraLightW01Rg.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkWebPro-ExtraLightW01Rg.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkWebPro-ExtraLightW01Rg.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkWebPro-ExtraLightW01Rg.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkWebPro-ExtraLightW01Rg.svg#MarkWebPro-ExtraLightW01Rg') format('svg');
+          font-weight: 300;
+        }
+        @font-face {
+          font-family: 'MarkWebPro-LightW01Regular';
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-LightW01Regular.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-LightW01Regular.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkWebPro-LightW01Regular.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkWebPro-LightW01Regular.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkWebPro-LightW01Regular.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkWebPro-LightW01Regular.svg#MarkWebPro-LightW01Regular') format('svg');
+          font-weight: bold;
+        }
+        @font-face {
+          font-family: 'MarkWebW01Regular';
+          src: url('https://mastercardevents.com/webfonts/MarkWebW01Regular.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkWebW01Regular.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkWebW01Regular.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkWebW01Regular.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkWebW01Regular.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkWebW01Regular.svg#MarkWebW01Regular') format('svg');
+          font-weight: bold;
+        }
+        @font-face {
+          font-family: 'MarkWebPro-MediumW01Regular';
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-MediumW01Regular.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-MediumW01Regular.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkWebPro-MediumW01Regular.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkWebPro-MediumW01Regular.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkWebPro-MediumW01Regular.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkWebPro-MediumW01Regular.svg#MarkWebPro-MediumW01Regular') format('svg');
+          font-weight: bold;
+        }
+        @font-face {
+          font-family: 'MarkWebPro-BoldW01Regular';
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-BoldW01Regular.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-BoldW01Regular.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkWebPro-BoldW01Regular.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkWebPro-BoldW01Regular.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkWebPro-BoldW01Regular.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkWebPro-BoldW01Regular.svg#MarkWebPro-BoldW01Regular') format('svg');
+          font-weight: bold;
+        }
+        @font-face {
+          font-family: 'MarkForMCNarrowW00-Regular';
+          src: url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Regular.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Regular.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Regular.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Regular.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Regular.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Regular.svg#MarkForMCNarrowW00-Regular') format('svg');
+          font-weight: bold;
+        }
+        @font-face {
+          font-family: 'MarkForMCNarrowW00-Medium';
+          src: url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Medium.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Medium.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Medium.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Medium.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Medium.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Medium.svg#MarkForMCNarrowW00-Medium') format('svg');
+          font-weight: bold;
+        }
+        @font-face {
+          font-family: 'MarkForMCNarrowW00-Bold';
+          src: url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Bold.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Bold.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Bold.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Bold.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Bold.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Bold.svg#MarkForMCNarrowW00-Bold') format('svg');
+          font-weight: bold;
+        }
+      }
+      /*Outlook fix */
+      p.MsoNormal {
+        margin: 0px !important;
+      }
+      [style*='MarkWebPro-ExtraLightW01Rg'] {
+        font-family: 'MarkWebPro-ExtraLightW01Rg', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkWebPro-LightW01Regular'] {
+        font-family: 'MarkWebPro-LightW01Regular', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkWebW01Regular'] {
+        font-family: 'MarkWebW01Regular', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkWebPro-MediumW01Regular'] {
+        font-family: 'MarkWebPro-MediumW01Regular', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkWebPro-BoldW01Regular'] {
+        font-family: 'MarkWebPro-BoldW01Regular', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkForMCNarrowW00-Regular'] {
+        font-family: 'MarkForMCNarrowW00-Regular', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkForMCNarrowW00-Medium'] {
+        font-family: 'MarkForMCNarrowW00-Medium', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkForMCNarrowW00-Bold'] {
+        font-family: 'MarkForMCNarrowW00-Bold', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      /*Responsive Century Gothic, Arial, sans-serif !important;*/
+      @media only screen and (max-width: 667px) {
+        .badge {
+          width: 118px;
+          max-width: 118px;
+          float: left;
+        }
+        .badge img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .banner {
+          min-width: 100% !important;
+          width: 100% !important;
+        }
+        .banner img {
+          height: auto !important;
+          width: 100% !important;
+          margin-left: auto;
+          margin-right: auto;
+        }
+        .bioImg {
+          width: 100px;
+          max-width: 100px;
+          float: left;
+        }
+        .bioImg img {
+          width: 100% !important;
+          max-width: 100px !important;
+          height: auto !important;
+        }
+        .btn {
+          width: 190px;
+          max-width: 190px;
+          float: none;
+        }
+        .btn img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .center {
+          text-align: center !important;
+        }
+        .col-50 {
+          float: none;
+          width: 100% !important;
+        }
+        .content {
+          width: 90%;
+          margin-left: auto;
+          margin-right: auto;
+          float: none;
+        }
+        .container {
+          width: 100% !important;
+          margin-left: auto;
+          margin-right: auto;
+          float: none;
+        }
+        .event-logo {
+          width: 170px;
+          max-width: 170px;
+          float: right;
+          padding-left: 25px;
+        }
+        .event-logo img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .height-auto {
+          height: auto !important;
+        }
+        .hero {
+          float: left;
+          width: 100% !important;
+        }
+        .icon {
+          width: 55px;
+          max-width: 55px;
+          float: left;
+        }
+        .icon img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .icon-social {
+          width: 30px;
+          max-width: 30px;
+          float: left;
+        }
+        .icon-social img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .imgBlock {
+          height: auto !important;
+        }
+        .left {
+          float: left;
+        }
+        .less-space {
+          height: 15px !important;
+          line-height: 15px !important;
+          font-size: 15px !important;
+        }
+        .mainContainer {
+          width: 100% !important;
+          min-width: 100% !important;
+          height: auto !important;
+          margin-left: auto;
+          margin-right: auto;
+          float: none;
+        }
+        .mc-inconvoWith {
+          width: 190px;
+          max-width: 190px;
+          float: left;
+        }
+        .mc-inconvoWith img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .mc-symbol {
+          width: 53px;
+          max-width: 53px;
+          float: left;
+        }
+        .mc-symbol img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .micro-space {
+          height: 12px !important;
+          line-height: 12px !important;
+          font-size: 12px !important;
+        }
+        .more-space {
+          height: 25px !important;
+          line-height: 25px !important;
+          font-size: 25px !important;
+        }
+        .socialWrapper {
+          margin-left: auto;
+          margin-right: auto;
+          float: left;
+        }
+        .spaceToHide {
+          display: none;
+        }
+        .sponsor {
+          width: 110px;
+          max-width: 110px;
+          float: left;
+        }
+        .sponsor img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .top-10 {
+          margin-top: 10px !important;
+        }
+        .top-15 {
+          margin-top: 15px !important;
+        }
+        .top-20 {
+          margin-top: 20px !important;
+        }
+        .top-25 {
+          margin-top: 25px !important;
+        }
+        .top-30 {
+          margin-top: 30px !important;
+        }
+        .top-35 {
+          margin-top: 35px !important;
+        }
+        .top-40 {
+          margin-top: 40px !important;
+        }
+        .top-45 {
+          margin-top: 45px !important;
+        }
+      }
+    </style>
+
+    <!--[if (gte mso 9)|(IE)]>
+    <style type="text/css">
+        table {
+        border-collapse: collapse;
+        border-spacing: 0; 
+        mso-line-height-rule: exactly; 
+        mso-margin-bottom-alt: 0; 
+        mso-margin-top-alt: 0; 
+        mso-table-lspace: 0pt; mso-table-rspace: 0pt;}
+        </style>
+         <![endif]-->
+    <style type="text/css">
+      /* Reset */
+      .ExternalClass {
+        width: 100%;
+      }
+      .ExternalClass,
+      .ExternalClass p,
+      .ExternalClass span,
+      .ExternalClass font,
+      .ExternalClass td,
+      .ExternalClass div {
+        line-height: 100%;
+      }
+      body {
+        -webkit-text-size-adjust: none;
+        -ms-text-size-adjust: none;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      table td {
+        border-collapse: collapse;
+      }
+      a,
+      a:link {
+        color: inherit;
+        text-decoration: underline;
+      }
+      span.yshortcuts {
+        color: inherit;
+        background-color: none;
+        border: none;
+      }
+      span.yshortcuts:hover,
+      span.yshortcuts:active,
+      span.yshortcuts:focus {
+        color: inherit;
+        background-color: none;
+        border: none;
+      }
+      @media screen {
+        @font-face {
+          font-family: 'MarkWebPro-ExtraLightW01Rg';
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-ExtraLightW01Rg.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-ExtraLightW01Rg.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkWebPro-ExtraLightW01Rg.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkWebPro-ExtraLightW01Rg.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkWebPro-ExtraLightW01Rg.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkWebPro-ExtraLightW01Rg.svg#MarkWebPro-ExtraLightW01Rg') format('svg');
+          font-weight: 300;
+        }
+        @font-face {
+          font-family: 'MarkWebPro-LightW01Regular';
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-LightW01Regular.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-LightW01Regular.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkWebPro-LightW01Regular.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkWebPro-LightW01Regular.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkWebPro-LightW01Regular.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkWebPro-LightW01Regular.svg#MarkWebPro-LightW01Regular') format('svg');
+          font-weight: bold;
+        }
+        @font-face {
+          font-family: 'MarkWebW01Regular';
+          src: url('https://mastercardevents.com/webfonts/MarkWebW01Regular.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkWebW01Regular.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkWebW01Regular.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkWebW01Regular.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkWebW01Regular.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkWebW01Regular.svg#MarkWebW01Regular') format('svg');
+          font-weight: bold;
+        }
+        @font-face {
+          font-family: 'MarkWebPro-MediumW01Regular';
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-MediumW01Regular.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-MediumW01Regular.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkWebPro-MediumW01Regular.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkWebPro-MediumW01Regular.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkWebPro-MediumW01Regular.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkWebPro-MediumW01Regular.svg#MarkWebPro-MediumW01Regular') format('svg');
+          font-weight: bold;
+        }
+        @font-face {
+          font-family: 'MarkWebPro-BoldW01Regular';
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-BoldW01Regular.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-BoldW01Regular.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkWebPro-BoldW01Regular.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkWebPro-BoldW01Regular.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkWebPro-BoldW01Regular.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkWebPro-BoldW01Regular.svg#MarkWebPro-BoldW01Regular') format('svg');
+          font-weight: bold;
+        }
+        @font-face {
+          font-family: 'MarkForMCNarrowW00-Regular';
+          src: url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Regular.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Regular.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Regular.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Regular.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Regular.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Regular.svg#MarkForMCNarrowW00-Regular') format('svg');
+          font-weight: bold;
+        }
+        @font-face {
+          font-family: 'MarkForMCNarrowW00-Medium';
+          src: url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Medium.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Medium.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Medium.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Medium.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Medium.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Medium.svg#MarkForMCNarrowW00-Medium') format('svg');
+          font-weight: bold;
+        }
+        @font-face {
+          font-family: 'MarkForMCNarrowW00-Bold';
+          src: url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Bold.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Bold.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Bold.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Bold.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Bold.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Bold.svg#MarkForMCNarrowW00-Bold') format('svg');
+          font-weight: bold;
+        }
+      }
+      /*Outlook fix */
+      p.MsoNormal {
+        margin: 0px !important;
+      }
+      [style*='MarkWebPro-ExtraLightW01Rg'] {
+        font-family: 'MarkWebPro-ExtraLightW01Rg', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkWebPro-LightW01Regular'] {
+        font-family: 'MarkWebPro-LightW01Regular', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkWebW01Regular'] {
+        font-family: 'MarkWebW01Regular', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkWebPro-MediumW01Regular'] {
+        font-family: 'MarkWebPro-MediumW01Regular', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkWebPro-BoldW01Regular'] {
+        font-family: 'MarkWebPro-BoldW01Regular', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkForMCNarrowW00-Regular'] {
+        font-family: 'MarkForMCNarrowW00-Regular', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkForMCNarrowW00-Medium'] {
+        font-family: 'MarkForMCNarrowW00-Medium', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkForMCNarrowW00-Bold'] {
+        font-family: 'MarkForMCNarrowW00-Bold', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      /*Responsive Century Gothic, Arial, sans-serif !important;*/
+      @media only screen and (max-width: 667px) {
+        .badge {
+          width: 118px;
+          max-width: 118px;
+          float: left;
+        }
+        .badge img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .banner {
+          min-width: 100% !important;
+          width: 100% !important;
+        }
+        .banner img {
+          height: auto !important;
+          width: 100% !important;
+          margin-left: auto;
+          margin-right: auto;
+        }
+        .bioImg {
+          width: 100px;
+          max-width: 100px;
+          float: left;
+        }
+        .bioImg img {
+          width: 100% !important;
+          max-width: 100px !important;
+          height: auto !important;
+        }
+        .btn {
+          width: 190px;
+          max-width: 190px;
+          float: none;
+        }
+        .btn img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .center {
+          text-align: center !important;
+        }
+        .col-50 {
+          float: none;
+          width: 100% !important;
+        }
+        .content {
+          width: 90%;
+          margin-left: auto;
+          margin-right: auto;
+          float: none;
+        }
+        .container {
+          width: 100% !important;
+          margin-left: auto;
+          margin-right: auto;
+          float: none;
+        }
+        .event-logo {
+          width: 170px;
+          max-width: 170px;
+          float: right;
+          padding-left: 25px;
+        }
+        .event-logo img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .height-auto {
+          height: auto !important;
+        }
+        .hero {
+          float: left;
+          width: 100% !important;
+        }
+        .icon {
+          width: 55px;
+          max-width: 55px;
+          float: left;
+        }
+        .icon img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .icon-social {
+          width: 30px;
+          max-width: 30px;
+          float: left;
+        }
+        .icon-social img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .imgBlock {
+          height: auto !important;
+        }
+        .left {
+          float: left;
+        }
+        .less-space {
+          height: 15px !important;
+          line-height: 15px !important;
+          font-size: 15px !important;
+        }
+        .mainContainer {
+          width: 100% !important;
+          min-width: 100% !important;
+          height: auto !important;
+          margin-left: auto;
+          margin-right: auto;
+          float: none;
+        }
+        .mc-inconvoWith {
+          width: 190px;
+          max-width: 190px;
+          float: left;
+        }
+        .mc-inconvoWith img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .mc-symbol {
+          width: 53px;
+          max-width: 53px;
+          float: left;
+        }
+        .mc-symbol img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .micro-space {
+          height: 12px !important;
+          line-height: 12px !important;
+          font-size: 12px !important;
+        }
+        .more-space {
+          height: 25px !important;
+          line-height: 25px !important;
+          font-size: 25px !important;
+        }
+        .socialWrapper {
+          margin-left: auto;
+          margin-right: auto;
+          float: left;
+        }
+        .spaceToHide {
+          display: none;
+        }
+        .sponsor {
+          width: 110px;
+          max-width: 110px;
+          float: left;
+        }
+        .sponsor img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .top-10 {
+          margin-top: 10px !important;
+        }
+        .top-15 {
+          margin-top: 15px !important;
+        }
+        .top-20 {
+          margin-top: 20px !important;
+        }
+        .top-25 {
+          margin-top: 25px !important;
+        }
+        .top-30 {
+          margin-top: 30px !important;
+        }
+        .top-35 {
+          margin-top: 35px !important;
+        }
+        .top-40 {
+          margin-top: 40px !important;
+        }
+        .top-45 {
+          margin-top: 45px !important;
+        }
+      }
+    </style>
+
+    <!--[if (gte mso 9)|(IE)]>
+    <style type="text/css">
+        table {
+        border-collapse: collapse;
+        border-spacing: 0; 
+        mso-line-height-rule: exactly; 
+        mso-margin-bottom-alt: 0; 
+        mso-margin-top-alt: 0; 
+        mso-table-lspace: 0pt; mso-table-rspace: 0pt;}
+        </style>
+         <![endif]-->
+    <style type="text/css">
+      /* Reset */
+      .ExternalClass {
+        width: 100%;
+      }
+      .ExternalClass,
+      .ExternalClass p,
+      .ExternalClass span,
+      .ExternalClass font,
+      .ExternalClass td,
+      .ExternalClass div {
+        line-height: 100%;
+      }
+      body {
+        -webkit-text-size-adjust: none;
+        -ms-text-size-adjust: none;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      table td {
+        border-collapse: collapse;
+      }
+      a,
+      a:link {
+        color: inherit;
+        text-decoration: underline;
+      }
+      span.yshortcuts {
+        color: inherit;
+        background-color: none;
+        border: none;
+      }
+      span.yshortcuts:hover,
+      span.yshortcuts:active,
+      span.yshortcuts:focus {
+        color: inherit;
+        background-color: none;
+        border: none;
+      }
+      @media screen {
+        @font-face {
+          font-family: 'MarkWebPro-ExtraLightW01Rg';
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-ExtraLightW01Rg.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-ExtraLightW01Rg.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkWebPro-ExtraLightW01Rg.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkWebPro-ExtraLightW01Rg.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkWebPro-ExtraLightW01Rg.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkWebPro-ExtraLightW01Rg.svg#MarkWebPro-ExtraLightW01Rg') format('svg');
+          font-weight: 300;
+        }
+        @font-face {
+          font-family: 'MarkWebPro-LightW01Regular';
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-LightW01Regular.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-LightW01Regular.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkWebPro-LightW01Regular.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkWebPro-LightW01Regular.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkWebPro-LightW01Regular.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkWebPro-LightW01Regular.svg#MarkWebPro-LightW01Regular') format('svg');
+          font-weight: bold;
+        }
+        @font-face {
+          font-family: 'MarkWebW01Regular';
+          src: url('https://mastercardevents.com/webfonts/MarkWebW01Regular.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkWebW01Regular.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkWebW01Regular.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkWebW01Regular.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkWebW01Regular.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkWebW01Regular.svg#MarkWebW01Regular') format('svg');
+          font-weight: bold;
+        }
+        @font-face {
+          font-family: 'MarkWebPro-MediumW01Regular';
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-MediumW01Regular.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-MediumW01Regular.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkWebPro-MediumW01Regular.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkWebPro-MediumW01Regular.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkWebPro-MediumW01Regular.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkWebPro-MediumW01Regular.svg#MarkWebPro-MediumW01Regular') format('svg');
+          font-weight: bold;
+        }
+        @font-face {
+          font-family: 'MarkWebPro-BoldW01Regular';
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-BoldW01Regular.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkWebPro-BoldW01Regular.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkWebPro-BoldW01Regular.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkWebPro-BoldW01Regular.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkWebPro-BoldW01Regular.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkWebPro-BoldW01Regular.svg#MarkWebPro-BoldW01Regular') format('svg');
+          font-weight: bold;
+        }
+        @font-face {
+          font-family: 'MarkForMCNarrowW00-Regular';
+          src: url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Regular.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Regular.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Regular.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Regular.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Regular.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Regular.svg#MarkForMCNarrowW00-Regular') format('svg');
+          font-weight: bold;
+        }
+        @font-face {
+          font-family: 'MarkForMCNarrowW00-Medium';
+          src: url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Medium.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Medium.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Medium.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Medium.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Medium.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Medium.svg#MarkForMCNarrowW00-Medium') format('svg');
+          font-weight: bold;
+        }
+        @font-face {
+          font-family: 'MarkForMCNarrowW00-Bold';
+          src: url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Bold.eot');
+          src: url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Bold.eot?#iefix') format('embedded-opentype'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Bold.woff2') format('woff2'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Bold.woff') format('woff'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Bold.ttf') format('truetype'), url('https://mastercardevents.com/webfonts/MarkForMCNarrowW00-Bold.svg#MarkForMCNarrowW00-Bold') format('svg');
+          font-weight: bold;
+        }
+      }
+      /*Outlook fix */
+      p.MsoNormal {
+        margin: 0px !important;
+      }
+      [style*='MarkWebPro-ExtraLightW01Rg'] {
+        font-family: 'MarkWebPro-ExtraLightW01Rg', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkWebPro-LightW01Regular'] {
+        font-family: 'MarkWebPro-LightW01Regular', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkWebW01Regular'] {
+        font-family: 'MarkWebW01Regular', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkWebPro-MediumW01Regular'] {
+        font-family: 'MarkWebPro-MediumW01Regular', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkWebPro-BoldW01Regular'] {
+        font-family: 'MarkWebPro-BoldW01Regular', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkForMCNarrowW00-Regular'] {
+        font-family: 'MarkForMCNarrowW00-Regular', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkForMCNarrowW00-Medium'] {
+        font-family: 'MarkForMCNarrowW00-Medium', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      [style*='MarkForMCNarrowW00-Bold'] {
+        font-family: 'MarkForMCNarrowW00-Bold', Century Gothic, Arial, Helvetica, sans-serif;
+      }
+      /*Responsive Century Gothic, Arial, sans-serif !important;*/
+      @media only screen and (max-width: 667px) {
+        .badge {
+          width: 118px;
+          max-width: 118px;
+          float: left;
+        }
+        .badge img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .banner {
+          min-width: 100% !important;
+          width: 100% !important;
+        }
+        .banner img {
+          height: auto !important;
+          width: 100% !important;
+          margin-left: auto;
+          margin-right: auto;
+        }
+        .bioImg {
+          width: 100px;
+          max-width: 100px;
+          float: left;
+        }
+        .bioImg img {
+          width: 100% !important;
+          max-width: 100px !important;
+          height: auto !important;
+        }
+        .btn {
+          width: 190px;
+          max-width: 190px;
+          float: none;
+        }
+        .btn img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .center {
+          text-align: center !important;
+        }
+        .col-50 {
+          float: none;
+          width: 100% !important;
+        }
+        .content {
+          width: 90%;
+          margin-left: auto;
+          margin-right: auto;
+          float: none;
+        }
+        .container {
+          width: 100% !important;
+          margin-left: auto;
+          margin-right: auto;
+          float: none;
+        }
+        .event-logo {
+          width: 170px;
+          max-width: 170px;
+          float: right;
+          padding-left: 25px;
+        }
+        .event-logo img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .height-auto {
+          height: auto !important;
+        }
+        .hero {
+          float: left;
+          width: 100% !important;
+        }
+        .icon {
+          width: 55px;
+          max-width: 55px;
+          float: left;
+        }
+        .icon img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .icon-social {
+          width: 30px;
+          max-width: 30px;
+          float: left;
+        }
+        .icon-social img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .imgBlock {
+          height: auto !important;
+        }
+        .left {
+          float: left;
+        }
+        .less-space {
+          height: 15px !important;
+          line-height: 15px !important;
+          font-size: 15px !important;
+        }
+        .mainContainer {
+          width: 100% !important;
+          min-width: 100% !important;
+          height: auto !important;
+          margin-left: auto;
+          margin-right: auto;
+          float: none;
+        }
+        .mc-inconvoWith {
+          width: 190px;
+          max-width: 190px;
+          float: left;
+        }
+        .mc-inconvoWith img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .mc-symbol {
+          width: 53px;
+          max-width: 53px;
+          float: left;
+        }
+        .mc-symbol img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .micro-space {
+          height: 12px !important;
+          line-height: 12px !important;
+          font-size: 12px !important;
+        }
+        .more-space {
+          height: 25px !important;
+          line-height: 25px !important;
+          font-size: 25px !important;
+        }
+        .socialWrapper {
+          margin-left: auto;
+          margin-right: auto;
+          float: left;
+        }
+        .spaceToHide {
+          display: none;
+        }
+        .sponsor {
+          width: 110px;
+          max-width: 110px;
+          float: left;
+        }
+        .sponsor img {
+          width: 100% !important;
+          height: auto !important;
+        }
+        .top-10 {
+          margin-top: 10px !important;
+        }
+        .top-15 {
+          margin-top: 15px !important;
+        }
+        .top-20 {
+          margin-top: 20px !important;
+        }
+        .top-25 {
+          margin-top: 25px !important;
+        }
+        .top-30 {
+          margin-top: 30px !important;
+        }
+        .top-35 {
+          margin-top: 35px !important;
+        }
+        .top-40 {
+          margin-top: 40px !important;
+        }
+        .top-45 {
+          margin-top: 45px !important;
+        }
+      }
+    </style>
+
+    <!--[if (gte mso 9)|(IE)]>
+    <style type="text/css">
+        table {
+        border-collapse: collapse;
+        border-spacing: 0; 
+        mso-line-height-rule: exactly; 
+        mso-margin-bottom-alt: 0; 
+        mso-margin-top-alt: 0; 
+        mso-table-lspace: 0pt; mso-table-rspace: 0pt;}
+        </style>
+         <![endif]-->
+    <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#f1efeb">
+
+      <!--Content-->
+      <tbody>
+        <tr>
+          <td align="center" valign="top">
+            <table class="mainContainer" style="margin-left: auto; margin-right: auto; min-width: 650px;" role="presentation" width="650" cellspacing="0" cellpadding="0" border="0">
+
+              <!--Preheader-->
+              <tbody>
+                <tr>
+                  <td valign="top">
+                    <table class="content" role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" align="left" bgcolor="#f1efeb">
+                      <tbody>
+                        <tr>
+                          <td valign="top">
+
+                            <!--[if (gte mso 9)|(IE)]> 
+                             <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                               <tr>
+                                  <td valign="top" width="495"><![endif]-->
+                            <table class="col-50" role="presentation" width="495" cellspacing="0" cellpadding="0" border="0" align="left">
+                              <tbody>
+                                <tr>
+                                  <td style="font-size: 25px; line-height: 25px; mso-line-height-rule: exactly;" valign="top" height="25"> </td>
+                                </tr>
+                                <tr>
+                                  <td align="left" valign="top" style="color: #141413; font-family: 'MarkForMCNarrowW00-Regular', Century Gothic, Arial, Helvetica, sans-serif; font-size: 11px; line-height: 15px;">Add this Streamcard event to your calendar.</td>
+                                </tr>
+                                <tr>
+                                  <td style="font-size: 25px; line-height: 25px; mso-line-height-rule: exactly;" valign="top" height="25" class="spaceToHide"> </td>
+                                </tr>
+                              </tbody>
+                            </table>
+
+                            <!--[if (gte mso 9)|(IE)]></td>
+                                  <td valign="top" width="20"><![endif]-->
+                            <table class="spaceToHide" role="presentation" width="20" cellspacing="0" cellpadding="0" border="0" align="left">
+                              <tbody>
+                                <tr>
+                                  <td style="font-size: 15px; line-height: 15px; mso-line-height-rule: exactly;" valign="top"> </td>
+                                </tr>
+                              </tbody>
+                            </table>
+
+                            <!--[if (gte mso 9)|(IE)]></td>
+                                  <td valign="top" width="130"><![endif]-->
+                            <table class="col-50" role="presentation" width="130" cellspacing="0" cellpadding="0" border="0" align="right">
+                              <tbody>
+                                <tr>
+                                  <td style="font-size: 25px; line-height: 25px; mso-line-height-rule: exactly;" valign="top" height="25" class="micro-space"> </td>
+                                </tr>
+                                <tr>
+                                  <td align="right" valign="top" style="color: #141413; font-family: 'MarkForMCNarrowW00-Regular', Century Gothic, Arial, Helvetica, sans-serif; font-size: 11px; line-height: 15px;" class="left"></td>
+                                </tr>
+                                <tr>
+                                  <td style="font-size: 25px; line-height: 25px; mso-line-height-rule: exactly;" valign="top" height="25"> </td>
+                                </tr>
+                              </tbody>
+                            </table>
+
+                            <!--[if (gte mso 9)|(IE)]></td>
+                                </tr> 
+                             </table><![endif]-->
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr> <!--/Preheader-->
+
+                <!--Header-->
+                <tr>
+                  <td valign="top" bgcolor="#242423">
+                    <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#141413">
+                      <tbody>
+                        <tr>
+                          <td class="spaceToHide" width="35" valign="top"></td>
+                          <td class="container" width="580" valign="top">
+                            <table class="content" role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" align="left">
+                              <tbody>
+                                <tr>
+                                  <td style="font-size: 25px; line-height: 25px; mso-line-height-rule: exactly;" valign="top" height="25"> </td>
+                                </tr>
+                                <tr>
+                                  <td valign="top">
+                                    <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+                                      <tbody>
+                                        <tr>
+                                          <td width="53" align="left" valign="top" class="mc-symbol"><img src="https://content.onlinexperiences.com/FileLibrary/5268/19/mc_symbol__2x.png" alt="Streamcard" width="53" style="max-width: 53px; font-family: sans-serif; color: #ffffff; font-size: 14px; display: block; border: 0px; vertical-align: top;" border="0" /></td>
+                                          <td class="spaceToHide" width="527" valign="top"></td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td style="font-size: 25px; line-height: 25px; mso-line-height-rule: exactly;" valign="top" height="25"> </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                          <td class="spaceToHide" width="35" valign="top"></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr> <!--/Header-->
+
+                <!--Body-->
+                <tr>
+                  <td valign="top" bgcolor="#444240">
+                    <table bgcolor="#444240" border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                      <tbody>
+                        <tr>
+                          <td class="SpaceToHide" valign="top" width="35"> </td>
+                          <td class="container" valign="top" width="615">
+                            <table align="left" border="0" cellpadding="0" cellspacing="0" class="content" role="presentation" width="100%">
+                              <tbody>
+                                <tr>
+                                  <td align="left" valign="top">
+                                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                                      <tbody>
+                                        <tr>
+                                          <td align="left" valign="top" width="270">
+                                            <table align="left" border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="height: 201px; width: 100%;">
+                                              <tbody>
+                                                <tr style="height: 70px;">
+                                                  <td height="70" style="font-size: 70px; line-height: 70px; height: 70px;" valign="top" class="more-space"> </td>
+                                                </tr>
+                                                <tr style="height: 37px;">
+                                                  <td align="left" style="color: #ffffff; font-family: 'Mark Offc For MC', MarkForMCNarrowW00-Regular, Arial, Helvetica, sans-serif; font-size: 31px; line-height: 35px; height: 37px;" valign="top"><span style="font-size: 24px;">Streamcard Economics Institute - Travel 2024: Trends & Transitions</span></td>
+                                                </tr>
+                                                <tr style="height: 15px;">
+                                                  <td height="15" style="font-size: 15px; line-height: 15px; height: 15px;" valign="top"> </td>
+                                                </tr>
+                                                <tr style="height: 54px;">
+                                                  <td align="left" style="color: #ff671b; font-family: MarkWebPro-BoldW01Regular, 'Century Gothic', Arial, Helvetica, sans-serif; font-size: 14px; line-height: 18px; height: 54px;" valign="top"><span style="color: #ff671b; -webkit-text-fill-color: currentcolor; text-decoration: none !important;"><strong style="font-family: 'MarkWebPro-BoldW01Regular', Century Gothic, Arial, Helvetica, sans-serif;">08/15/2024 <span class="spaceToHide"><br /></span>09:30AM EDT <br /></strong></span></td>
+                                                </tr>
+                                                <tr style="height: 25px;">
+                                                  <td height="25" style="font-size: 25px; line-height: 25px; height: 25px;" valign="top"> </td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                          <td class="spaceToHide" valign="top" width="20"> </td>
+                                          <td width="325" align="left" valign="top" class="spaceToHide"><img alt="" border="0" role="presentation" src="https://imagizer.imageshack.com/img923/7237/tbOdgz.jpg" style="max-width: 325px; font-family: sans-serif; color: #ffffff; font-size: 12px; display: block; border: 0px; vertical-align: top;" width="325" /></td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td valign="top" bgcolor="#ffffff">
+                    <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#ffffff">
+                      <tbody>
+                        <tr>
+                          <td class="spaceToHide" width="35" valign="top"></td>
+                          <td class="container" width="580" valign="top">
+                            <table class="content" role="presentation" align="left" cellspacing="0" cellpadding="0" width="100%" border="0">
+                              <tbody>
+                                <tr>
+                                  <td style="font-size: 25px; line-height: 25px; mso-line-height-rule: exactly;" valign="top" height="25"> </td>
+                                </tr>
+                                <tr>
+                                  <td style="color: #141413; font-family: 'Mark Offc For MC', 'MarkForMCNarrowW00-Regular', Arial, Helvetica, sans-serif; font-size: 24px; line-height: 28px;" align="left" valign="top">You have successfully registered for Streamcard Economics Institute - Travel 2024: Trends & Transitions</td>
+                                </tr>
+                                <tr>
+                                  <td style="font-size: 15px; line-height: 15px; mso-line-height-rule: exactly;" valign="top" height="15"> </td>
+                                </tr>
+                                <tr>
+                                  <td style="color: #141413; font-family: 'MarkForMCNarrowW00-Regular', Century Gothic, Arial, Helvetica, sans-serif; font-size: 15px; line-height: 19px;" valign="top" align="left">Thank you for registering for the Streamcard webinar, "card Economics Institute - Travel 2024: Trends & Transitions." Add this event to your calendar for 08/15/2024 at 9:30AM EDT using <a href="https://onlinexperiences.com/scripts/server.nxp?LASCmd=AI:4;F:UP!30155&EventKey=662045">this link</a>.<br /><br />We look forward to your participation in the upcoming webinar!</td>
+                                </tr>
+                                <tr>
+                                  <td style="font-size: 35px; line-height: 35px; mso-line-height-rule: exactly;" valign="top" height="35"> </td>
+                                </tr>
+                                <tr>
+                                  <td valign="top">
+                                    <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+                                      <tbody>
+                                        <tr>
+                                          <td width="3" align="left" valign="top" bgcolor="#ff671b"></td>
+                                          <td width="490" align="left" valign="top" bgcolor="#f1efeb">
+                                            <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#f1efeb">
+                                              <tbody>
+                                                <tr>
+                                                  <td class="spaceToHide" width="25" valign="top"></td>
+                                                  <td class="container" width="440" valign="top">
+                                                    <table class="content" role="presentation" align="left" cellspacing="0" cellpadding="0" width="100%" border="0">
+                                                      <tbody>
+                                                        <tr>
+                                                          <td style="font-size: 25px; line-height: 25px; mso-line-height-rule: exactly;" valign="top" height="25"> </td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td style="color: #ff671b; font-family: 'MarkForMCNarrowW00-Bold', Century Gothic, Arial, Helvetica, sans-serif; font-size: 15px; line-height: 19px;" valign="top" align="left"><span style="color: #ff671b; -webkit-text-fill-color: currentcolor; text-decoration: none !important;"><strong style="font-family: 'MarkForMCNarrowW00-Bold', Century Gothic, Arial, Helvetica, sans-serif;">08/15/2024 | 09:30AM EDT </strong></span></td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td style="font-size: 10px; line-height: 10px; mso-line-height-rule: exactly;" valign="top" height="10"> </td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td style="color: #141413; font-family: 'Mark Offc For MC', 'MarkForMCNarrowW00-Regular', Arial, Helvetica, sans-serif; font-size: 20px; line-height: 24px;" valign="top" align="left">Streamcard Economics Institute - Travel 2024: Trends & Transitions</td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td style="font-size: 20px; line-height: 20px; mso-line-height-rule: exactly;" valign="top" height="20"> </td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td valign="top">
+                                                            <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+                                                              <tbody>
+                                                                <tr>
+                                                                  <td width="190" align="left" valign="top" class="btn"><a href="https://onlinexperiences.com/scripts/server.nxp?LASCmd=AI:4;F:UP!30155&EventKey=662045" target="_blank"><img src="https://content.onlinexperiences.com/FileLibrary/5268/19/mc_webinar_btn-addToCalendar__2x.png" alt="Add to calendar" width="190" style="max-width: 190px; font-family: sans-serif; color: #141413; font-size: 14px; display: block; border: 0px; vertical-align: top;" border="0" /></a></td>
+                                                                  <td class="spaceToHide" width="400" valign="top"></td>
+                                                                </tr>
+                                                              </tbody>
+                                                            </table>
+                                                          </td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td style="font-size: 25px; line-height: 25px; mso-line-height-rule: exactly;" valign="top" height="25"> </td>
+                                                        </tr>
+                                                      </tbody>
+                                                    </table>
+                                                  </td>
+                                                  <td class="spaceToHide" width="25" valign="top"></td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td style="font-size: 35px; line-height: 35px; mso-line-height-rule: exactly;" valign="top" height="35"> </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                          <td class="spaceToHide" width="35" valign="top"></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td valign="top" bgcolor="#ff671b" style="font-size: 5px; line-height: 5px; mso-line-height-rule: exactly;" height="5"> </td>
+                </tr> <!--/Body-->
+
+                <!--Legal-->
+                <tr>
+                  <td valign="top" bgcolor="#f1efeb">
+                    <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#f1efeb">
+                      <tbody>
+                        <tr>
+                          <td class="spaceToHide" width="35" valign="top"></td>
+                          <td class="container" width="580" valign="top">
+                            <table class="content" role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" align="left">
+                              <tbody>
+                                <tr>
+                                  <td valign="top">
+                                    <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+                                      <tbody>
+                                        <tr>
+                                          <td style="font-size: 25px; line-height: 25px; mso-line-height-rule: exactly;" valign="top" height="25"> </td>
+                                        </tr>
+                                        <tr>
+                                          <td valign="top">
+                                            <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" align="left">
+                                              <tbody>
+                                                <tr>
+                                                  <td align="left" valign="top" style="color: #141413; font-family: 'MarkForMCNarrowW00-Regular', Century Gothic, Arial, Helvetica, sans-serif; font-size: 16px; line-height: 20px;">Follow us</td>
+                                                </tr>
+                                                <tr>
+                                                  <td style="font-size: 10px; line-height: 10px; mso-line-height-rule: exactly;" valign="top" height="10"> </td>
+                                                </tr>
+                                                <tr>
+                                                  <td valign="top">
+                                                    <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+                                                      <tbody>
+                                                        <tr>
+                                                          <td valign="top">
+                                                            <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+                                                              <tbody>
+                                                                <tr>
+                                                                  <td width="120" align="left" valign="top">
+                                                                    <table class="socialWrapper" role="presentation" width="120" cellspacing="0" cellpadding="0" border="0">
+                                                                      <tbody>
+                                                                        <tr>
+                                                                          <td class="icon-social" width="30" valign="top"><a href="https://www.facebook.com/MastercardUS/" target="_blank"><img alt="Facebook" src="https://content.onlinexperiences.com/FileLibrary/5268/19/mc_webinar_social-facebook__2x.png" width="30" style="max-width: 30px; font-family: sans-serif; color: #141413; font-size: 12px; display: block; border: 0px; vertical-align: top;" border="0" /></a></td>
+                                                                          <td width="10" valign="top"> </td>
+                                                                          <td class="icon-social" width="30" valign="top"><a href="" target="_blank"><img alt="Twitter" src="https://content.onlinexperiences.com/FileLibrary/5268/19/mc_webinar_social-twitter__2x.png" width="30" style="max-width: 30px; font-family: sans-serif; color: #141413; font-size: 12px; display: block; border: 0px; vertical-align: top;" border="0" /></a></td>
+                                                                          <td width="10" valign="top"> </td>
+                                                                          <td class="icon-social" width="30" valign="top"><a href="" target="_blank"><img alt="LinkedIn" src="https://content.onlinexperiences.com/FileLibrary/5268/19/mc_webinar_social-linkedIn__2x.png" width="30" style="max-width: 30px; font-family: sans-serif; color: #141413; font-size: 12px; display: block; border: 0px; vertical-align: top;" border="0" /></a></td>
+                                                                          <td width="10" valign="top"> </td>
+                                                                        </tr>
+                                                                      </tbody>
+                                                                    </table>
+                                                                  </td>
+                                                                  <td class="spaceToHide" width="460" valign="top"></td>
+                                                                </tr>
+                                                              </tbody>
+                                                            </table>
+                                                          </td>
+                                                        </tr>
+                                                      </tbody>
+                                                    </table>
+                                                  </td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td style="font-size: 25px; line-height: 25px; mso-line-height-rule: exactly;" valign="top" height="25"> </td>
+                                        </tr>
+                                        <tr>
+                                          <td style="font-family: 'MarkForMCNarrowW00-Regular', Century Gothic, Arial, Helvetica, sans-serif; color: #141413; font-size: 11px; line-height: 15px;" valign="top" align="left">To ensure that you are receiving important webcast notices and reminders, be sure to add <a href="mailto:streamcard_webinars@theonlinexpo.com" style="color: #141413;"><em style="color: #141413; font-style: normal;">streamcard_webinars@theonlinexpo.com</em></a> to your address book. For more information, please view our <a href="https://presentations.akamaized.net/ProductResources/Production/HTML/Whitelisting/Whitelisting.html" target="_blank" style="color: #141413;"><em style="color: #141413; font-style: normal;">whitelisting instructions</em></a>. If you feel you have received this message in error, please <a href="#" style="text-decoration: underline; color: #666666;">unsubscribe</a> from this mailing list. <a href="mailto:support@inxpo.com" style="text-decoration: underline; color: #666666;">Report email abuse</a>. To opt out of all Mastercard marketing communications, please <span style="color: #545454;"><a href="https://www.mastercard.com/us/personal/en/general/email-opt-out.html" target="_blank" rel="noopener" style="color: #545454;">click here</a>.</span></td>
+                                        </tr>
+                                        <tr>
+                                          <td style="font-size: 11px; line-height: 11px; mso-line-height-rule: exactly;" valign="top" height="11"> </td>
+                                        </tr>
+                                        <tr>
+                                          <td style="font-family: 'MarkForMCNarrowW00-Regular', Century Gothic, Arial, Helvetica, sans-serif; color: #141413; font-size: 11px; line-height: 15px;" valign="top" align="left">Streamcard is a registered trademark, and the circles design is a trademark, of Streamcard International Incorporated.</td>
+                                        </tr>
+                                        <tr>
+                                          <td style="font-size: 11px; line-height: 11px; mso-line-height-rule: exactly;" valign="top" height="11"> </td>
+                                        </tr>
+                                        <tr>
+                                          <td style="font-family: 'MarkForMCNarrowW00-Regular', Century Gothic, Arial, Helvetica, sans-serif; color: #141413; font-size: 11px; line-height: 15px;" valign="top" align="left">© 2024 Streamcard. All rights reserved. Streamcard, <span style="color: #141413; -webkit-text-fill-color: currentcolor; text-decoration: none !important;">2000 Purchase Street, Purchase, NY 10577</span>.</td>
+                                        </tr>
+                                        <tr>
+                                          <td style="font-size: 25px; line-height: 25px; mso-line-height-rule: exactly;" valign="top" height="25"> </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                          <td class="spaceToHide" width="35" valign="top"></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr> <!--/Legal-->
+              </tbody>
+            </table>
+          </td>
+        </tr> <!--/Content-->
+      </tbody>
+    </table>
+    <img src="https://onlinexperiences.com/scripts/Server.nxp?LASCmd=AI:4;F:AL!0&DocumentDistributionHistoryKey=183382053" DocumentDistributionHistoryKey="183382053" width="7" height="1" border="0" />
+  </body>
+</html>
